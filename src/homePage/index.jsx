@@ -7,6 +7,7 @@ import Oval from "../assets/icons/Oval.png";
 import Vector from "../assets/icons/Vector.svg";
 import Group from "../assets/icons/Group.svg";
 import statistics from "../assets/icons/statistics.svg";
+import local_offer_material from "../assets/icons/local_offer_material.svg";
 function Homepage(){
     const [isOpen, setOpen] = useState(false)
 
@@ -65,6 +66,12 @@ function Homepage(){
                 <div className="icon_style">
                     <div className="icon_background report"><img className="icons reports" src={statistics}/></div>
                     <h5 className="text">Reports</h5>
+                </div>
+            </div>
+            <div className="question_section">
+                <div className="question_background">
+                    <img className="lock" src={local_offer_material}/>
+                    <p className="para_question">Answer these questions & <span>Get N1,000 Voucher</span></p>
                 </div>
             </div>
         </div>
