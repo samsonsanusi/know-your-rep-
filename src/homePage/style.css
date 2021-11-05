@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+.clipPath{
+    position:absolute;
+    top:0;
+    left:15rem;
+}
+.logo{
+    width:204px;
+    height:40px;
+}
+.header{
+   margin-top:73px;
+   display:flex;
+   justify-content: space-between;
+   padding: 0 12px;
+}
+.hamburger{
+    color:#474D60;
+}
+.main_page{
+    margin-top:48px;
+    margin-left:13px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    
+}
+.search_section{
+    margin-top:30px;
+}
+.main_header{
+    color:#293340;
+    font-size:27px;
+    width:292px;
+    font-weight:bold;
+    font-family:"fira-sans",sans-serif;
+    line-height: 32px;
+}
+.input_address{
+    width:349px;
+    padding: 12px;
+    background:white;
+    border: 2px solid #00973F;
+    border-radius: 24px;
+    padding-left: 39px;
+    box-shadow: 0px 8px 16px rgba(66, 110, 217, 0.2);
+}
+.search_input form{
+    display:flex;
+    flex-direction:row;
+}
+.search_icon{
+    margin-left: -21rem;
+    margin-top: 11px;
+    width: 24px;
+    height: 27px;   
+}
+.features_section{
+    display:flex;
+    justify-content:space-around;
+    flex-flow:nowrap;
+    margin-top:30px;
+}
+.icon{
+    width:20px;
+}
+.icon_style{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.icon_background{
+    width:63px;
+    height:63px;
+    border-radius:18px;
+    background:linear-gradient(142.37deg, #26C8A8 4.58%, #62C76D 94.61%);
+    box-shadow: 0px 16px 20px rgba(66, 200, 141, 0.3);
+}
+.petition{
+    background: linear-gradient(318.38deg, #FF895F 9.38%, #FFD438 96%);
+    box-shadow: 0px 16px 20px rgba(255, 165, 80, 0.3);
+}
+.icons{
+    width:34.42px;
+    margin-top: 9px;
+    margin-left: 12px;
+}
+.petitions{
+    width: 38.42px;
+    margin-top: 11px;
+    margin-left: 14px;
+}
+.feedback{
+    background: linear-gradient(313.84deg, #249CD5 13.33%, #24D5C3 85.15%);
+    box-shadow: 0px 16px 20px rgba(36, 166, 210, 0.3);
+}
+.feedbacks{
+    width: 35px;
+    margin-top: 13px;
+    margin-left: 13.2px;
+}
+.report{
+    background: linear-gradient(137.15deg, #FF825F 11.6%, #FF4C51 86.35%);
+    box-shadow: 0px 16px 20px rgba(255, 103, 88, 0.3);
+}
+.reports{
+    margin-top:11px;
+    margin-left: 14px;
+}
+.text{
+    margin-top:9px;
+}
