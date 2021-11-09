@@ -136,11 +136,85 @@
     color: #F75D34;
     font-size: 12px; 
     padding-left: 0px;
+    font-family:"Roboto", sans-serif;
+    font-weight:200;
 }
 .lock{
     margin-right: 5px;
     width:12.48px;
 }
 span{
-    font-weight:bold;
+    font-weight:700;
+}
+.senator_images{
+    width:150px;
+    
+}
+.card{
+    height: 186px;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 6px rgb(71 77 96 / 10%);
+    width: 150px;
+    border-radius: 6px;
+}
+.container{
+    text-align: left;
+    padding-left:13px;
+}
+.reps_position{
+    font-size: 8px;
+    color: #D9A01B;
+    font-family: 'Fira Sans', sans-serif;
+    margin-top: 5px;
+    font-weight:500;
+}
+.reps_name{
+    font-family:'Fira Sans', sans-serif;
+    font-size:14px;
+    font-weight:500;
+    color:#000000;
+    margin-top:6px;
+    margin-bottom:7px;
+}
+.reps_constituency{
+    font-family:'Fira Sans', sans-serif;
+    font-weight:200;
+    font-size:12px;
+    line-height:14px;
+    color: #474D60;
+    margin-bottom:6px;
+}
+.rating_number{
+    font-family:'Fira Sans', sans-serif;
+    color:#1EA896;
+    font-size:14px;
+    font-weight:500;
+    margin-right:auto;
+}
+.reviews{
+    font-family: 'Fira Sans', sans-serif;
+    font-size:12px;
+    line-height:14px;
+    color: #474D60;
+    font-weight:400;
+    font-style: italic;
+}
+.rating{
+    display:flex;
+    width:104px;
+}
+.rating_button{
+    width:14px;
+    height:14px;
+    border:1px solid #1EA896;
+    border-radius:50%;
+    margin-right:auto;
+}
+.filled_background{
+    margin:0 auto;
+    margin-bottom: 3px;
+    margin-left: 2px;
+}
+.main_slider{
+     margin-top:40px;
 }

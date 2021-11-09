@@ -8,9 +8,13 @@ import Vector from "../assets/icons/Vector.svg";
 import Group from "../assets/icons/Group.svg";
 import statistics from "../assets/icons/statistics.svg";
 import local_offer_material from "../assets/icons/local_offer_material.svg";
+import Rectangle_Copy from "../assets/icons/Rectangle_Copy.png";
+import Oval2 from "../assets/icons/Oval2.png";
+import Rectangle_rep1 from "../assets/icons/Rectangle_rep1.png";
+import Rectangle_rep2 from "../assets/icons/Rectangle_rep2.png";
+import Rectangle_rep3 from "../assets/icons/Rectangle_rep3.png";
 function Homepage(){
     const [isOpen, setOpen] = useState(false)
-
     return(
         //clip_path
         <div className="homepage">
@@ -74,6 +78,69 @@ function Homepage(){
                     <p className="para_question">Answer these questions & <span>Get N1,000 Voucher</span></p>
                 </div>
             </div>
+            <section className="reps">
+            <h3>POPULAR REPRESENTATIVES</h3>
+                <div className="card">
+                  <img className="senator_images" src={Rectangle_Copy}/> 
+                  <div className="container">
+                      <h6 className="reps_position">HOUSE OF REPRESENTATIVE </h6>
+                      <h5 className="reps_name">Shina Peller</h5>
+                      <p className="reps_constituency">QUILOX, Lagos</p>
+                      <div className="rating">
+                          <h4 className="rating_number">4.5</h4>
+                          <div className="rating_button ">
+                              <img className="filled_background" src={Oval2}/> 
+                          </div>
+                          <p className="reviews">419 Reviews</p>
+                      </div>
+                  </div>
+                </div>
+                <div className="card">
+                  <img className="senator_images" src={Rectangle_rep1}/> 
+                  <div className="container">
+                      <h6 className="reps_position">STATE REPRESENTATIVE </h6>
+                      <h5 className="reps_name">Abdulahi Abubakar</h5>
+                      <p className="reps_constituency">Onike, Yaba, Lagos</p>
+                      <div className="rating">
+                          <h4 className="rating_number">3.4</h4>
+                          <div className="rating_button ">
+                              <img className="filled_background" src={Oval2}/> 
+                          </div>
+                          <p className="reviews">98 Reviews</p>
+                      </div>
+                  </div>
+                </div>
+                <div className="card">
+                  <img className="senator_images" src={Rectangle_rep2}/> 
+                  <div className="container">
+                      <h6 className="reps_position">SENATE PRESIDENT</h6>
+                      <h5 className="reps_name">Mohammadu Malami</h5>
+                      <p className="reps_constituency">Danfodio, Abuja</p>
+                      <div className="rating">
+                          <h4 className="rating_number">5.0</h4>
+                          <div className="rating_button ">
+                              <img className="filled_background" src={Oval2}/> 
+                          </div>
+                          <p className="reviews">319 Reviews</p>
+                      </div>
+                  </div>
+                </div>
+                <div className="card">
+                  <img className="senator_images" src={Rectangle_rep3}/> 
+                  <div className="container">
+                      <h6 className="reps_position">HOUSE OF REPRESENTATIVE </h6>
+                      <h5 className="reps_name">Shina Peller</h5>
+                      <p className="reps_constituency">QUILOX, Lagos</p>
+                      <div className="rating">
+                          <h4 className="rating_number">4.5</h4>
+                          <div className="rating_button ">
+                              <img className="filled_background" src={Oval2}/> 
+                          </div>
+                          <p className="reviews">419 Reviews</p>
+                      </div>
+                  </div>
+                </div>
+            </section>
         </div>
     )
 } 
