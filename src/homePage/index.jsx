@@ -13,10 +13,24 @@ import Oval2 from "../assets/icons/Oval2.png";
 import Rectangle_rep1 from "../assets/icons/Rectangle_rep1.png";
 import Rectangle_rep2 from "../assets/icons/Rectangle_rep2.png";
 import Rectangle_rep3 from "../assets/icons/Rectangle_rep3.png";
+import senator_dark from "../assets/icons/senator_dark.svg";
+import Group_dark from "../assets/icons/Group_dark.svg";
+import Feedbacks_dark from "../assets/icons/Feedbacks_dark.svg";
+import statistics_dark from "../assets/icons/statistics_dark.svg";
+import keyboard_backspace from "../assets/icons/keyboard_backspace.svg";
 function Homepage(){
     const [isOpen, setOpen] = useState(false)
+
+    const contentStyle = {
+        height: '160px',
+        color: '#fff',
+        lineHeight: '160px',
+        textAlign: 'center',
+        background: '#364d79',
+      };
+
+    
     return(
-        //clip_path
         <div className="homepage">
             <div className="clipPath">
             <svg width="135" height="40" viewBox="0 0 135 40" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -79,7 +93,8 @@ function Homepage(){
                 </div>
             </div>
             <section className="reps">
-            <h3>POPULAR REPRESENTATIVES</h3>
+            <h3 className="reps_header">POPULAR REPRESENTATIVES</h3>
+            <div className="reps_section">
                 <div className="card">
                   <img className="senator_images" src={Rectangle_Copy}/> 
                   <div className="container">
@@ -119,7 +134,8 @@ function Homepage(){
                       <div className="rating">
                           <h4 className="rating_number">5.0</h4>
                           <div className="rating_button ">
-                              <img className="filled_background" src={Oval2}/> 
+                              <img 
+                              className="filled_background" src={Oval2}/> 
                           </div>
                           <p className="reviews">319 Reviews</p>
                       </div>
@@ -140,8 +156,103 @@ function Homepage(){
                       </div>
                   </div>
                 </div>
+                </div>
             </section>
+            <section className="icon_section">
+                <div className="icons_link">
+                    <div>
+                    <div><img src={senator_dark}/></div>
+                    <h5 className="icon_text">Reps</h5>
+                    </div>
+
+                    <div className="icon_text">
+                    <div><img src={Group_dark}/></div>
+                    <h5>Petitions</h5>
+                    </div>
+
+                    <div className="icon_text">
+                    <div><img src={Feedbacks_dark}/></div>
+                    <h5>Feedbacks</h5>
+                    </div>
+
+                    <div className="icon_text">
+                    <div><img src={statistics_dark}/></div>
+                    <h5>Statistics</h5>
+                    </div>
+                </div>
+            </section>
+            <section className="reps">
+            <h3 className="reps_header">TOP RATED REPRESENTATIVES</h3>
+            <div className="reps_section">
+            <div className="card">
+                  <img className="senator_images" src={Rectangle_rep2}/> 
+                  <div className="container">
+                      <h6 className="reps_position">SENATE PRESIDENT</h6>
+                      <h5 className="reps_name">Mohammadu Malami</h5>
+                      <p className="reps_constituency">Danfodio, Abuja</p>
+                      <div className="rating">
+                          <h4 className="rating_number">5.0</h4>
+                          <div className="rating_button ">
+                              <img 
+                              className="filled_background" src={Oval2}/> 
+                          </div>
+                          <p className="reviews">319 Reviews</p>
+                      </div>
+                  </div>
+                </div>
+                <div className="card">
+                  <img className="senator_images" src={Rectangle_rep1}/> 
+                  <div className="container">
+                      <h6 className="reps_position">STATE REPRESENTATIVE </h6>
+                      <h5 className="reps_name">Abdulahi Abubakar</h5>
+                      <p className="reps_constituency">Onike, Yaba, Lagos</p>
+                      <div className="rating">
+                          <h4 className="rating_number">3.4</h4>
+                          <div className="rating_button ">
+                              <img className="filled_background" src={Oval2}/> 
+                          </div>
+                          <p className="reviews">98 Reviews</p>
+                      </div>
+                  </div>
+                </div>
+                <div className="card">
+                  <img className="senator_images" src={Rectangle_Copy}/> 
+                  <div className="container">
+                      <h6 className="reps_position">HOUSE OF REPRESENTATIVE </h6>
+                      <h5 className="reps_name">Shina Peller</h5>
+                      <p className="reps_constituency">QUILOX, Lagos</p>
+                      <div className="rating">
+                          <h4 className="rating_number">4.5</h4>
+                          <div className="rating_button ">
+                              <img className="filled_background" src={Oval2}/> 
+                          </div>
+                          <p className="reviews">419 Reviews</p>
+                      </div>
+                  </div>
+                </div>
+                <div className="card">
+                  <img className="senator_images" src={Rectangle_rep3}/> 
+                  <div className="container">
+                      <h6 className="reps_position">HOUSE OF REPRESENTATIVE </h6>
+                      <h5 className="reps_name">Shina Peller</h5>
+                      <p className="reps_constituency">QUILOX, Lagos</p>
+                      <div className="rating">
+                          <h4 className="rating_number">4.5</h4>
+                          <div className="rating_button ">
+                              <img className="filled_background" src={Oval2}/> 
+                          </div>
+                          <p className="reviews">419 Reviews</p>
+                      </div>
+                  </div>
+                </div>
+                </div>
+            </section>
+            <div className="reps view_all">
+                <div className="colored_arrow"><img src={keyboard_backspace}/></div>
+                <h3 className="colored_header">View All Representatives</h3>
+            </div>
         </div>
     )
 } 
 export default Homepage;
+
