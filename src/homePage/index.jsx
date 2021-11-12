@@ -19,6 +19,7 @@ import Feedbacks_dark from "../assets/icons/Feedbacks_dark.svg";
 import statistics_dark from "../assets/icons/statistics_dark.svg";
 import keyboard_backspace from "../assets/icons/keyboard_backspace.svg";
 import keyboard_backspace_white from "../assets/icons/keyboard_backspace_white.svg";
+import { Progress } from 'antd';
 function Homepage(){
     const [isOpen, setOpen] = useState(false)
 
@@ -263,16 +264,8 @@ function Homepage(){
                     <p className="inner_footer_content_para1">signatures</p>
                     <p className="inner_footer_content_para2">Target: <span className="footer_number">100,000</span></p>
                 </div>
-                </div>
-            </div>
-
-            <div className="footer_white_bg">
-                <div className="footer_content">
-                <h3 className="footer_content_header">Create a Minister for Hospitality in the Nigerian Government</h3>
-                <div className="inner_footer_content">
-                    <h2 className="inner_footer_content_header">75,746</h2>
-                    <p className="inner_footer_content_para1">signatures</p>
-                    <p className="inner_footer_content_para2">Target: <span className="footer_number">100,000</span></p>
+                <div className="progress_bar" style={{ width: 300 }}>
+                <Progress percent={50} size="small" status="active" />
                 </div>
                 </div>
             </div>
@@ -284,6 +277,23 @@ function Homepage(){
                     <h2 className="inner_footer_content_header">75,746</h2>
                     <p className="inner_footer_content_para1">signatures</p>
                     <p className="inner_footer_content_para2">Target: <span className="footer_number">100,000</span></p>
+                </div>
+                <div className="progress_bar" style={{ width: 300 }}>
+                <Progress percent={80} size="small" status="active" />
+                </div>
+                </div>
+            </div>
+
+            <div className="footer_white_bg">
+                <div className="footer_content">
+                <h3 className="footer_content_header">Create a Minister for Hospitality in the Nigerian Government</h3>
+                <div className="inner_footer_content">
+                    <h2 className="inner_footer_content_header">75,746</h2>
+                    <p className="inner_footer_content_para1">signatures</p>
+                    <p className="inner_footer_content_para2">Target: <span className="footer_number">100,000</span></p>
+                </div>
+                <div className="progress_bar" style={{ width: 300 }}>
+                <Progress percent={40} size="small" status="active" />
                 </div>
                 </div>
             </div>
