@@ -18,6 +18,7 @@ import Group_dark from "../assets/icons/Group_dark.svg";
 import Feedbacks_dark from "../assets/icons/Feedbacks_dark.svg";
 import statistics_dark from "../assets/icons/statistics_dark.svg";
 import keyboard_backspace from "../assets/icons/keyboard_backspace.svg";
+import keyboard_backspace_white from "../assets/icons/keyboard_backspace_white.svg";
 function Homepage(){
     const [isOpen, setOpen] = useState(false)
 
@@ -160,24 +161,24 @@ function Homepage(){
             </section>
             <section className="icon_section">
                 <div className="icons_link">
-                    <div>
+                    <div className="icon_group">
                     <div><img src={senator_dark}/></div>
                     <h5 className="icon_text">Reps</h5>
                     </div>
 
-                    <div className="icon_text">
+                    <div className="icon_group">
                     <div><img src={Group_dark}/></div>
-                    <h5>Petitions</h5>
+                    <h5 className="icon_text">Petitions</h5>
                     </div>
 
-                    <div className="icon_text">
+                    <div className="icon_group">
                     <div><img src={Feedbacks_dark}/></div>
-                    <h5>Feedbacks</h5>
+                    <h5 className="icon_text">Feedbacks</h5>
                     </div>
 
-                    <div className="icon_text">
+                    <div className="icon_group">
                     <div><img src={statistics_dark}/></div>
-                    <h5>Statistics</h5>
+                    <h5 className="icon_text">Statistics</h5>
                     </div>
                 </div>
             </section>
@@ -251,6 +252,47 @@ function Homepage(){
                 <div className="colored_arrow"><img src={keyboard_backspace}/></div>
                 <h3 className="colored_header">View All Representatives</h3>
             </div>
+            <section className="footer_section">
+            <div className="reps footer_footer">
+            <h3 className="reps_header footer">PETITIONS AROUND YOU</h3>
+            <div className="footer_white_bg">
+                <div className="footer_content">
+                <h3 className="footer_content_header">Create a Minister for Hospitality in the Nigerian Government</h3>
+                <div className="inner_footer_content">
+                    <h2 className="inner_footer_content_header">75,746</h2>
+                    <p className="inner_footer_content_para1">signatures</p>
+                    <p className="inner_footer_content_para2">Target: <span className="footer_number">100,000</span></p>
+                </div>
+                </div>
+            </div>
+
+            <div className="footer_white_bg">
+                <div className="footer_content">
+                <h3 className="footer_content_header">Create a Minister for Hospitality in the Nigerian Government</h3>
+                <div className="inner_footer_content">
+                    <h2 className="inner_footer_content_header">75,746</h2>
+                    <p className="inner_footer_content_para1">signatures</p>
+                    <p className="inner_footer_content_para2">Target: <span className="footer_number">100,000</span></p>
+                </div>
+                </div>
+            </div>
+
+            <div className="footer_white_bg">
+                <div className="footer_content">
+                <h3 className="footer_content_header">Create a Minister for Hospitality in the Nigerian Government</h3>
+                <div className="inner_footer_content">
+                    <h2 className="inner_footer_content_header">75,746</h2>
+                    <p className="inner_footer_content_para1">signatures</p>
+                    <p className="inner_footer_content_para2">Target: <span className="footer_number">100,000</span></p>
+                </div>
+                </div>
+            </div>
+            <div className="reps view_all white">
+                <div className="colored_arrow"><img src={keyboard_backspace_white}/></div>
+                <h3 className="colored_header footer_header">View All Representatives</h3>
+            </div>
+            </div>
+            </section>
         </div>
     )
 } 
