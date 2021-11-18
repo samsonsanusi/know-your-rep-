@@ -153,7 +153,7 @@ span{
 .card{
     height: 186px;
     background: #FFFFFF;
-    box-shadow: 0px 3px 6px rgb(71 77 96 / 10%);
+    box-shadow: 0px 3px 6px rgba(71, 77, 96, 0.1);
     width: 150px;
     border-radius: 6px;
     margin-right:4px;
