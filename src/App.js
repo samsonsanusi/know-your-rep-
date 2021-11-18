@@ -1,7 +1,9 @@
 import Homepage from "./homePage";
+import Search from "./search";
 function App(){
   return (
-  <Homepage />  
+  //<Homepage />  
+  <Search />
   )
 }
 export default App
