@@ -13,26 +13,10 @@ import Oval2 from "../assets/icons/Oval2.png";
 import Rectangle_rep1 from "../assets/icons/Rectangle_rep1.png";
 import Rectangle_rep2 from "../assets/icons/Rectangle_rep2.png";
 import Rectangle_rep3 from "../assets/icons/Rectangle_rep3.png";
-import senator_dark from "../assets/icons/senator_dark.svg";
-import Group_dark from "../assets/icons/Group_dark.svg";
-import Feedbacks_dark from "../assets/icons/Feedbacks_dark.svg";
-import statistics_dark from "../assets/icons/statistics_dark.svg";
-import keyboard_backspace from "../assets/icons/keyboard_backspace.svg";
-import keyboard_backspace_white from "../assets/icons/keyboard_backspace_white.svg";
-import { Progress } from 'antd';
 function Homepage(){
     const [isOpen, setOpen] = useState(false)
-
-    const contentStyle = {
-        height: '160px',
-        color: '#fff',
-        lineHeight: '160px',
-        textAlign: 'center',
-        background: '#364d79',
-      };
-
-    
     return(
+        //clip_path
         <div className="homepage">
             <div className="clipPath">
             <svg width="135" height="40" viewBox="0 0 135 40" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -95,8 +79,8 @@ function Homepage(){
                 </div>
             </div>
             <section className="reps">
-            <h3 className="reps_header">POPULAR REPRESENTATIVES</h3>
-            <div className="reps_section">
+            <h3>POPULAR REPRESENTATIVES</h3>
+                <>
                 <div className="card">
                   <img className="senator_images" src={Rectangle_Copy}/> 
                   <div className="container">
@@ -136,8 +120,7 @@ function Homepage(){
                       <div className="rating">
                           <h4 className="rating_number">5.0</h4>
                           <div className="rating_button ">
-                              <img 
-                              className="filled_background" src={Oval2}/> 
+                              <img className="filled_background" src={Oval2}/> 
                           </div>
                           <p className="reviews">319 Reviews</p>
                       </div>
@@ -158,153 +141,9 @@ function Homepage(){
                       </div>
                   </div>
                 </div>
-                </div>
-            </section>
-            <section className="icon_section">
-                <div className="icons_link">
-                    <div className="icon_group">
-                    <div><img src={senator_dark}/></div>
-                    <h5 className="icon_text">Reps</h5>
-                    </div>
-
-                    <div className="icon_group">
-                    <div><img src={Group_dark}/></div>
-                    <h5 className="icon_text">Petitions</h5>
-                    </div>
-
-                    <div className="icon_group">
-                    <div><img src={Feedbacks_dark}/></div>
-                    <h5 className="icon_text">Feedbacks</h5>
-                    </div>
-
-                    <div className="icon_group">
-                    <div><img src={statistics_dark}/></div>
-                    <h5 className="icon_text">Statistics</h5>
-                    </div>
-                </div>
-            </section>
-            <section className="reps">
-            <h3 className="reps_header">TOP RATED REPRESENTATIVES</h3>
-            <div className="reps_section">
-            <div className="card">
-                  <img className="senator_images" src={Rectangle_rep2}/> 
-                  <div className="container">
-                      <h6 className="reps_position">SENATE PRESIDENT</h6>
-                      <h5 className="reps_name">Mohammadu Malami</h5>
-                      <p className="reps_constituency">Danfodio, Abuja</p>
-                      <div className="rating">
-                          <h4 className="rating_number">5.0</h4>
-                          <div className="rating_button ">
-                              <img 
-                              className="filled_background" src={Oval2}/> 
-                          </div>
-                          <p className="reviews">319 Reviews</p>
-                      </div>
-                  </div>
-                </div>
-                <div className="card">
-                  <img className="senator_images" src={Rectangle_rep1}/> 
-                  <div className="container">
-                      <h6 className="reps_position">STATE REPRESENTATIVE </h6>
-                      <h5 className="reps_name">Abdulahi Abubakar</h5>
-                      <p className="reps_constituency">Onike, Yaba, Lagos</p>
-                      <div className="rating">
-                          <h4 className="rating_number">3.4</h4>
-                          <div className="rating_button ">
-                              <img className="filled_background" src={Oval2}/> 
-                          </div>
-                          <p className="reviews">98 Reviews</p>
-                      </div>
-                  </div>
-                </div>
-                <div className="card">
-                  <img className="senator_images" src={Rectangle_Copy}/> 
-                  <div className="container">
-                      <h6 className="reps_position">HOUSE OF REPRESENTATIVE </h6>
-                      <h5 className="reps_name">Shina Peller</h5>
-                      <p className="reps_constituency">QUILOX, Lagos</p>
-                      <div className="rating">
-                          <h4 className="rating_number">4.5</h4>
-                          <div className="rating_button ">
-                              <img className="filled_background" src={Oval2}/> 
-                          </div>
-                          <p className="reviews">419 Reviews</p>
-                      </div>
-                  </div>
-                </div>
-                <div className="card">
-                  <img className="senator_images" src={Rectangle_rep3}/> 
-                  <div className="container">
-                      <h6 className="reps_position">HOUSE OF REPRESENTATIVE </h6>
-                      <h5 className="reps_name">Shina Peller</h5>
-                      <p className="reps_constituency">QUILOX, Lagos</p>
-                      <div className="rating">
-                          <h4 className="rating_number">4.5</h4>
-                          <div className="rating_button ">
-                              <img className="filled_background" src={Oval2}/> 
-                          </div>
-                          <p className="reviews">419 Reviews</p>
-                      </div>
-                  </div>
-                </div>
-                </div>
-            </section>
-            <div className="reps view_all">
-                <div className="colored_arrow"><img src={keyboard_backspace}/></div>
-                <h3 className="colored_header">View All Representatives</h3>
-            </div>
-            <section className="footer_section">
-            <div className="reps footer_footer">
-            <h3 className="reps_header footer">PETITIONS AROUND YOU</h3>
-            <div className="footer_white_bg">
-                <div className="footer_content">
-                <h3 className="footer_content_header">Create a Minister for Hospitality in the Nigerian Government</h3>
-                <div className="inner_footer_content">
-                    <h2 className="inner_footer_content_header">75,746</h2>
-                    <p className="inner_footer_content_para1">signatures</p>
-                    <p className="inner_footer_content_para2">Target: <span className="footer_number">100,000</span></p>
-                </div>
-                <div className="progress_bar" style={{ width: 300 }}>
-                <Progress percent={50} size="small" status="active" />
-                </div>
-                </div>
-            </div>
-
-            <div className="footer_white_bg">
-                <div className="footer_content">
-                <h3 className="footer_content_header">Create a Minister for Hospitality in the Nigerian Government</h3>
-                <div className="inner_footer_content">
-                    <h2 className="inner_footer_content_header">75,746</h2>
-                    <p className="inner_footer_content_para1">signatures</p>
-                    <p className="inner_footer_content_para2">Target: <span className="footer_number">100,000</span></p>
-                </div>
-                <div className="progress_bar" style={{ width: 300 }}>
-                <Progress percent={80} size="small" status="active" />
-                </div>
-                </div>
-            </div>
-
-            <div className="footer_white_bg">
-                <div className="footer_content">
-                <h3 className="footer_content_header">Create a Minister for Hospitality in the Nigerian Government</h3>
-                <div className="inner_footer_content">
-                    <h2 className="inner_footer_content_header">75,746</h2>
-                    <p className="inner_footer_content_para1">signatures</p>
-                    <p className="inner_footer_content_para2">Target: <span className="footer_number">100,000</span></p>
-                </div>
-                <div className="progress_bar" style={{ width: 300 }}>
-                <Progress percent={40} size="small" status="active" />
-                </div>
-                </div>
-            </div>
-            <div className="reps view_all white">
-                <div className="colored_arrow"><img src={keyboard_backspace_white}/></div>
-                <h3 className="colored_header footer_header">View All Representatives</h3>
-            </div>
-            </div>
+                </> 
             </section>
         </div>
     )
 } 
 export default Homepage;
-
