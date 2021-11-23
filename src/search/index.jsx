@@ -12,11 +12,11 @@ function Search(){
     return(
         <div className="search">
             <div className="clip_path2">
-            <img src={clip_path2}/>
+            <img src={clip_path2} alt=""/>
             </div>
             <div className="container_search">
             <div className="arrow_down">
-                <img className="arrow_down_icon" src={arrow_down}/>
+                <img className="arrow_down_icon" src={arrow_down} alt=""/>
             </div>
 
             <section>
@@ -29,7 +29,7 @@ function Search(){
             </section>
 
             <div className="gps_section">
-                <img className="gps_icon" src={gps}/>
+                <img className="gps_icon" src={gps} alt=""/>
                 <h3 className="gps_text">Use Current Location</h3>
             </div>
             <h3 className="location_main_header">POPULAR LOCATION NEAR YOU</h3>
@@ -74,25 +74,25 @@ function Search(){
                 <div className="footer_icon">
                     <div className="footer_icon_group">
                         <div>
-                            <img src={senator_dark}/>
+                            <img src={senator_dark} alt=""/>
                         </div>
                         <h5 className="footerHeader">Reps</h5>
                     </div>
                     <div className="footer_icon_group">
                         <div>
-                            <img src={Group_dark}/>
+                            <img src={Group_dark} alt=""/>
                         </div>
                         <h5 className="footerHeader">Petitions</h5>
                     </div>
                     <div className="footer_icon_group">
                         <div>
-                            <img src={statistics_dark}/>
+                            <img src={statistics_dark} alt=""/>
                         </div>
                         <h5 className="footerHeader">Feedbacks</h5>
                     </div>
                     <div className="footer_icon_group">
                         <div>
-                            <img src={Feedbacks_dark}/>
+                            <img src={Feedbacks_dark} alt=""/>
                         </div>
                         <h5 className="footerHeader">Reports</h5>
                     </div>

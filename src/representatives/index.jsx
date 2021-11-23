@@ -22,7 +22,7 @@ function Representatives(){
         <div className="representatives">
             <header>
                 <div className="header_dark" >
-                <div className="header_logo"><img className="logo_white" src={Logo_light}/></div>
+                <div className="header_logo"><img className="logo_white" src={Logo_light} alt=""/></div>
                 <div className="hamburger_light">
                 <Hamburger toggled={isOpen} toggle={setOpen} />
                 </div>
@@ -32,7 +32,7 @@ function Representatives(){
                     <input type="text" className="representative_area_search" placeholder="Anthony Ajayi, Onike, Yaba, Lagos" />
                     </form>
                     <div className="searchBtn_representative">
-                    <img src={Oval_colored}/>
+                    <img src={Oval_colored} alt=""/>
                     </div>
                 </div>
             </header>
@@ -40,7 +40,7 @@ function Representatives(){
                 <div className="filter_section">
                 <h3 className="filter_header">REPRESENTATIVES</h3>
                 <div className="filter_icon">
-                    <img src={filter_list} />
+                    <img src={filter_list} alt=""/>
                     <h6 className="filter_text">Filters</h6>
                 </div>
                 </div>
@@ -53,11 +53,11 @@ function Representatives(){
                     <p className="representative_jurisdiction">Onike, Yaba, Lagos • 2.4 kms away</p>
                     <div className="rating_group">
                         <h4 className="rep_rating_colored">3.8</h4>
-                        <div className="rep_rating_button"><img className="inner_rep_button" src={Oval_rep}/></div>
+                        <div className="rep_rating_button"><img className="inner_rep_button" src={Oval_rep} alt=""/></div>
                         <p className="colored_rating_review">982 Reviews</p>
                     </div>
                     </div>
-                    <div className="representative_image"><img src={Abdulai_img} /></div>
+                    <div className="representative_image"><img src={Abdulai_img} alt=""/></div>
                 </div>
                 <div className="representative_inner_details">
                     <div>
@@ -66,11 +66,11 @@ function Representatives(){
                     <p className="representative_jurisdiction">Onike, Yaba, Lagos • 2.4 kms away</p>
                     <div className="rating_group">
                         <h4 className="rep_rating_colored">3.8</h4>
-                        <div className="rep_rating_button"><img className="inner_rep_button" src={Oval_rep}/></div>
+                        <div className="rep_rating_button"><img className="inner_rep_button" src={Oval_rep} alt=""/></div>
                         <p className="colored_rating_review">419 Reviews</p>
                     </div>
                     </div>
-                    <div className="representative_image"><img src={tosin_rep} /></div>
+                    <div className="representative_image"><img src={tosin_rep} alt=""/></div>
                 </div>
                 <div className="representative_inner_details">
                     <div>
@@ -79,11 +79,11 @@ function Representatives(){
                     <p className="representative_jurisdiction">Onike, Yaba, Lagos • 2.4 kms away</p>
                     <div className="rating_group">
                         <h4 className="rep_rating_colored">3.8</h4>
-                        <div className="rep_rating_button"><img className="inner_rep_button" src={Oval_rep}/></div>
+                        <div className="rep_rating_button"><img className="inner_rep_button" src={Oval_rep} alt=""/></div>
                         <p className="colored_rating_review">258 Reviews</p>
                     </div>
                     </div>
-                    <div className="representative_image"><img src={joseph_rep} /></div>
+                    <div className="representative_image"><img src={joseph_rep} alt=""/></div>
                 </div>
                 <div className="representative_inner_details">
                     <div>
@@ -92,11 +92,11 @@ function Representatives(){
                     <p className="representative_jurisdiction">Onike, Yaba, Lagos • 2.4 kms away</p>
                     <div className="rating_group">
                         <h4 className="rep_rating_colored">3.8</h4>
-                        <div className="rep_rating_button"><img className="inner_rep_button" src={Oval_rep}/></div>
+                        <div className="rep_rating_button"><img className="inner_rep_button" src={Oval_rep} alt=""/></div>
                         <p className="colored_rating_review">419 Reviews</p>
                     </div>
                     </div>
-                    <div className="representative_image"><img src={tinubu_rep} /></div>
+                    <div className="representative_image"><img src={tinubu_rep} alt=""/></div>
                 </div>
                 <div className="representative_inner_details">
                     <div>
@@ -105,11 +105,11 @@ function Representatives(){
                     <p className="representative_jurisdiction">Onike, Yaba, Lagos • 2.4 kms away</p>
                     <div className="rating_group">
                         <h4 className="rep_rating_colored">3.8</h4>
-                        <div className="rep_rating_button"><img className="inner_rep_button" src={Oval_rep}/></div>
+                        <div className="rep_rating_button"><img className="inner_rep_button" src={Oval_rep} alt=""/></div>
                         <p className="colored_rating_review">982 Reviews</p>
                     </div>
                     </div>
-                    <div className="representative_image"><img src={dino_rep} /></div>
+                    <div className="representative_image"><img src={dino_rep} alt =""/></div>
                 </div>
                 <div className="representative_inner_details">
                     <div>
@@ -118,31 +118,31 @@ function Representatives(){
                     <p className="representative_jurisdiction">Onike, Yaba, Lagos • 2.4 kms away</p>
                     <div className="rating_group">
                         <h4 className="rep_rating_colored">3.8</h4>
-                        <div className="rep_rating_button"><img className="inner_rep_button" src={Oval_rep}/></div>
+                        <div className="rep_rating_button"><img className="inner_rep_button" src={Oval_rep} alt=""/></div>
                         <p className="colored_rating_review">258 Reviews</p>
                     </div>
                     </div>
-                    <div className="representative_image"><img src={joseph_rep} /></div>
+                    <div className="representative_image"><img src={joseph_rep} alt=""/></div>
                 </div>
             </section>
             <footer>
                     <div className="footer_content">
-                        <div><img src={senator_dark} /></div>
+                        <div><img src={senator_dark} alt=""/></div>
                         <h5 className="rep_footer_header">Reps</h5>
                     </div> 
 
                     <div className="footer_content">
-                        <div><img src={petition} /></div>
+                        <div><img src={petition} alt=""/></div>
                         <h5 className="rep_footer_header">Petitions</h5>
                     </div>
 
                     <div className="footer_content">
-                        <div><img src={Feedbacks_dark} /></div>
+                        <div><img src={Feedbacks_dark} alt=""/></div>
                         <h5 className="rep_footer_header">Feedbacks</h5>
                     </div>
 
                     <div className="footer_content">
-                        <div><img src={statistics_dark}/></div>
+                        <div><img src={statistics_dark} alt=""/></div>
                         <h5 className="rep_footer_header">Reps</h5>
                     </div>
                 </footer>

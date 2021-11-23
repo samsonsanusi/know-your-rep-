@@ -1,5 +1,5 @@
-import Search from "./search";
-import Homepage from "./homePage";
+//import Search from "./search";
+//import Homepage from "./homePage";
 import Representatives from "./representatives";
 function App(){
   return (
