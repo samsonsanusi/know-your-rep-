@@ -43,7 +43,7 @@ function Homepage(){
             {/* search bar */}
             <div className="search_section">
                 <div className="search_input">
-                <form>
+                <form className="representative_form">
                 <input type="text" className="input_address" placeholder="Anthony Ajayi, Onike, Yaba, Lagos"></input>
                 <img className="search_icon" src={Oval}/>
                 </form>

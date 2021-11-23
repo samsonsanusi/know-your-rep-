@@ -1,6 +1,5 @@
 import "./style.css";
 import clip_path2 from "../assets/icons/clip_path2.svg"; 
-
 import arrow_down from "../assets/icons/arrow_down.svg";
 import gps from "../assets/icons/gps.svg";
 import senator_dark from "../assets/icons/senator_dark.svg";
