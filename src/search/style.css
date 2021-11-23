@@ -1,7 +1,7 @@
 .clip_path2{
-    position: fixed;
-    top: 0px;
-    right: 0;
+    float:right;
+    margin-top:-58px;
+
 }
 .container_search{
     display:block;
@@ -79,7 +79,7 @@ span{
 .footer_icon_section{
     margin-top:14px;
     position:fixed;
-    width:100%;
+    width:377px;
     bottom:0;
 }
 .footer_icon{
@@ -96,4 +96,5 @@ span{
     font-family: 'Fira Sans', sans-serif;
     font-size:12px;
     margin-top:7px;
+    color:#293340;
 }

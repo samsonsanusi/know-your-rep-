@@ -43,9 +43,9 @@ function Homepage(){
             {/* search bar */}
             <div className="search_section">
                 <div className="search_input">
-                <form>
+                <form className="representative_form">
                 <input type="text" className="input_address" placeholder="Anthony Ajayi, Onike, Yaba, Lagos"></input>
-                <img className="search_icon" src={Oval}/>
+                <img className="search_icon" src={Oval} alt=""/>
                 </form>
                 </div>
             </div>
@@ -53,28 +53,28 @@ function Homepage(){
             {/* features */}
             <div className="features_section">
                 <div className="icon_style">
-                <div className="icon_background"><img className="icons" src={senator}/></div>
+                <div className="icon_background"><img className="icons" src={senator} alt=""/></div>
                 <h5 className="text">Reps</h5>
                 </div>
 
                <div className="icon_style">
-                   <div img className="icon_background petition"><img className="icons petitions" src={Vector}/></div>
+                   <div img className="icon_background petition"><img className="icons petitions" src={Vector} alt=""/></div>
                    <h5 className="text">Petitions</h5>
                </div>
 
                 <div className="icon_style">
-                    <div className="icon_background feedback"><img className="icons feedbacks" src={Group}/></div>
+                    <div className="icon_background feedback"><img className="icons feedbacks" src={Group} alt=""/></div>
                     <h5 className="text">Feedbacks</h5>
                 </div>
 
                 <div className="icon_style">
-                    <div className="icon_background report"><img className="icons reports" src={statistics}/></div>
+                    <div className="icon_background report"><img className="icons reports" src={statistics} alt=""/></div>
                     <h5 className="text">Reports</h5>
                 </div>
             </div>
             <div className="question_section">
                 <div className="question_background">
-                    <img className="lock" src={local_offer_material}/>
+                    <img className="lock" src={local_offer_material} alt=""/>
                     <p className="para_question">Answer these questions & <span>Get N1,000 Voucher</span></p>
                 </div>
             </div>
@@ -82,7 +82,7 @@ function Homepage(){
             <h3>POPULAR REPRESENTATIVES</h3>
                 <>
                 <div className="card">
-                  <img className="senator_images" src={Rectangle_Copy}/> 
+                  <img className="senator_images" src={Rectangle_Copy} alt=""/> 
                   <div className="container">
                       <h6 className="reps_position">HOUSE OF REPRESENTATIVE </h6>
                       <h5 className="reps_name">Shina Peller</h5>
@@ -90,7 +90,7 @@ function Homepage(){
                       <div className="rating">
                           <h4 className="rating_number">4.5</h4>
                           <div className="rating_button ">
-                              <img className="filled_background" src={Oval2}/> 
+                              <img className="filled_background" src={Oval2} alt=""/> 
                           </div>
                           <p className="reviews">419 Reviews</p>
                       </div>
@@ -105,14 +105,14 @@ function Homepage(){
                       <div className="rating">
                           <h4 className="rating_number">3.4</h4>
                           <div className="rating_button ">
-                              <img className="filled_background" src={Oval2}/> 
+                              <img className="filled_background" src={Oval2} alt=""/> 
                           </div>
                           <p className="reviews">98 Reviews</p>
                       </div>
                   </div>
                 </div>
                 <div className="card">
-                  <img className="senator_images" src={Rectangle_rep2}/> 
+                  <img className="senator_images" src={Rectangle_rep2} alt=""/> 
                   <div className="container">
                       <h6 className="reps_position">SENATE PRESIDENT</h6>
                       <h5 className="reps_name">Mohammadu Malami</h5>
@@ -120,14 +120,14 @@ function Homepage(){
                       <div className="rating">
                           <h4 className="rating_number">5.0</h4>
                           <div className="rating_button ">
-                              <img className="filled_background" src={Oval2}/> 
+                              <img className="filled_background" src={Oval2} alt=""/> 
                           </div>
                           <p className="reviews">319 Reviews</p>
                       </div>
                   </div>
                 </div>
                 <div className="card">
-                  <img className="senator_images" src={Rectangle_rep3}/> 
+                  <img className="senator_images" src={Rectangle_rep3} alt=""/> 
                   <div className="container">
                       <h6 className="reps_position">HOUSE OF REPRESENTATIVE </h6>
                       <h5 className="reps_name">Shina Peller</h5>
@@ -135,7 +135,7 @@ function Homepage(){
                       <div className="rating">
                           <h4 className="rating_number">4.5</h4>
                           <div className="rating_button ">
-                              <img className="filled_background" src={Oval2}/> 
+                              <img className="filled_background" src={Oval2} alt=""/> 
                           </div>
                           <p className="reviews">419 Reviews</p>
                       </div>
