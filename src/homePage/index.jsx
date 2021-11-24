@@ -13,12 +13,9 @@ import Oval2 from "../assets/icons/Oval2.png";
 import Rectangle_rep1 from "../assets/icons/Rectangle_rep1.png";
 import Rectangle_rep2 from "../assets/icons/Rectangle_rep2.png";
 import Rectangle_rep3 from "../assets/icons/Rectangle_rep3.png";
-import senator_dark from "../assets/icons/senator_dark.svg";
-import Group_dark from "../assets/icons/Group_dark.svg";
-import Feedbacks_dark from "../assets/icons/Feedbacks_dark.svg";
-import statistics_dark from "../assets/icons/statistics_dark.svg";
 import keyboard_backspace from "../assets/icons/keyboard_backspace.svg";
 import keyboard_backspace_white from "../assets/icons/keyboard_backspace_white.svg";
+import Navbar from "../components/navbar";
 import { Progress } from 'antd';
 function Homepage(){
     const [isOpen, setOpen] = useState(false)
@@ -161,27 +158,7 @@ function Homepage(){
                 </div>
             </section>
             <section className="icon_section">
-                <div className="icons_link">
-                    <div className="icon_group">
-                    <div><img src={senator_dark}/></div>
-                    <h5 className="icon_text">Reps</h5>
-                    </div>
-
-                    <div className="icon_group">
-                    <div><img src={Group_dark}/></div>
-                    <h5 className="icon_text">Petitions</h5>
-                    </div>
-
-                    <div className="icon_group">
-                    <div><img src={Feedbacks_dark}/></div>
-                    <h5 className="icon_text">Feedbacks</h5>
-                    </div>
-
-                    <div className="icon_group">
-                    <div><img src={statistics_dark}/></div>
-                    <h5 className="icon_text">Statistics</h5>
-                    </div>
-                </div>
+                <Navbar />
             </section>
             <section className="reps">
             <h3 className="reps_header">TOP RATED REPRESENTATIVES</h3>
