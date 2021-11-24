@@ -1,11 +1,13 @@
 //import Search from "./search";
-//import Homepage from "./homePage";
-import Representatives from "./representatives";
+import Homepage from "./homePage";
+//import Representative_details from "./representative_details"
+// import Representatives from "./representatives";
 function App(){
   return (
-  //<Homepage />  
+  <Homepage />  
   //<Search />
-  <Representatives />
+  // <Representatives />
+  // <Representative_details />
   )
 }
 
