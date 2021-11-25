@@ -1,7 +1,7 @@
 .representatives{
     width:375px;
 }
-header{
+.representative_header{
     background: linear-gradient(317.15deg, #90DF6F 13.65%, #00973F 88.4%);
     height:185px;
 }

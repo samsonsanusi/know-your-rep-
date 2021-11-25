@@ -1,6 +1,5 @@
 header{
     width:375px;
-    height:462px;
     background: linear-gradient(317.15deg, #90DF6F 13.65%, #00973F 88.4%);
 }
 .arrow_icon{
@@ -9,7 +8,7 @@ header{
 .arrow_icon_white{
     margin-bottom: -46px;
 }
-.rep_personal_page{
+.reps_inner_rep_personal_page{
     width:327px;
     height:355px;
     background:white;
@@ -17,18 +16,18 @@ header{
     border-radius: 12px;
     margin: 60px auto;
 }
-.image_circle{
+.reps_inner_image_circle{
     width:96px;
     width: 96px;
     position: relative;
     top: -33px;
     left: 17px;
 }
-.representative_group{
+.reps_inner_representative_group{
     margin-left: 23px;
     margin-bottom: 11px;
 }
-.rep_circle_header{
+.reps_inner_rep_circle_header{
     margin-top: -23px;
     font-family: 'Fira Sans', sans-serif;
     font-size:17px;
@@ -37,7 +36,7 @@ header{
     font-weight:500;
     width: 183px;
 }
-.rep_circle_last_header{
+.reps_inner_rep_circle_last_header{
     font-family: 'Fira Sans', sans-serif;
     font-size:12px;
     color:#D9A01B;
@@ -45,39 +44,39 @@ header{
     font-weight:500;
     margin-top:8px;
 }
-.representative_cards{
+.reps_inner_representative_cards{
     display: flex;
     justify-content: center;
     margin-right: 8px;
 }
-.petitions_rating{
+.reps_inner_petitions_rating{
     background: #F0F1F2;
     width:90px;
     height:60px;
     border-radius: 6px;
     margin-left: 6px;
 }
-.representative_petition{
+.reps_inner_representative_petition{
     font-family: 'Fira Sans', sans-serif;
     font-weight:300;
     font-size:11px;
 }
-.text{
+.reps_inner_text{
     padding-top: 15px;
     padding-left: 15px;
 }
-.petition_number{
+.reps_inner_petition_number{
     font-size: 14px;
     padding-top: 6px;
     color: #24272C;
 }
-.call{
+.reps_inner_call{
     margin-left: 23px;
     margin-top: 24px;
     display: flex;
     align-items: center;
 }
-.call_rep{
+.reps_inner_call_rep{
     background: linear-gradient(148.69deg, #90DF6F 0%, #00BBCA 85.18%);
     box-shadow: 0px 16px 20px rgba(66, 200, 141, 0.3);
     width: 24px;
@@ -85,31 +84,30 @@ header{
     border-radius: 50%;
     padding:8px 21px 22px 10px;
 }
-.rep_number{
+.reps_inner_rep_number{
     width:266px;
     margin-left: 20px;
 }
-.rep_border_bottom{
+.reps_inner_rep_border_bottom{
     border-bottom: 1px solid rgba(41, 51, 64, 0.15);
     width: 253px;
     margin-top: 11px;
     margin-left: 74px;
     height:1px;
 }
-.location_section{
+.reps_inner_rep_location_section{
     margin-left:30px;
     margin-top: 12px;
-
 }
-.location{
+.reps_inner_location{
     display:flex;
 }
-.location_icon{
+.reps_inner_location_icon{
     width:12.67px;
     height:17.17px;
     margin-top: 5px;
 }
-.real_location{
+.reps_inner_real_location{
     font-family: 'Fira Sans', sans-serif;
     font-weight:300;
     font-size:14px;
@@ -118,7 +116,7 @@ header{
     margin-left: 28px;
     line-height: 22px;
 }
-.get_directions{
+.reps_inner_get_directions{
     text-align: center;
     color:#00973F;
     margin-right: 92px;
@@ -127,16 +125,16 @@ header{
     font-family: 'Fira Sans', sans-serif;
     font-size:14px;
 }
-.arrow_white_down{
+.reps_inner_arrow_white_down{
     margin-top: 21px;
     text-align: center;
 }
-.petitions_details_section{
+.reps_inner_petitions_details_section{
     width: 375px;
     height: 651px;
     box-shadow: 0px 3px 6px rgba(71, 77, 96, 0.1);
 }
-.rep_petition_response{
+.reps_inner_rep_petition_response{
     font-family: 'Fira Sans', sans-serif;
     color:#293340;
     font-size:13px;
@@ -145,7 +143,7 @@ header{
     height: 16px;
     font-weight:700;
 }
-.petition_details_header{
+.reps_inner_petition_details_header{
     font-family: 'Fira Sans', sans-serif;
     width:312px;
     font-weight:500;
@@ -154,11 +152,11 @@ header{
     line-height: 17px;
     margin-top: 12px;
 }
-.petition_details_holder{
+.reps_inner_petition_details_holder{
     margin-top: 17px;
     margin-left: 28px;
 }
-.petition_date_details{
+.reps_inner_petition_date_details{
     font-family: 'Fira Sans', sans-serif;
     font-size:10px;
     font-weight:300;
@@ -166,7 +164,7 @@ header{
     width:312px;
     margin-top: 5px;
 }
-.petition_full_details{
+.reps_inner_petition_full_details{
     font-family: 'Fira Sans', sans-serif;
     font-size: 13px;
     width:312px;
@@ -174,31 +172,31 @@ header{
     margin-top: 10px;
     line-height: 16px;
 }
-.petition_full_details_holder{
+.reps_inner_petition_full_details_holder{
     display:flex;
     align-items: baseline;
 }
-.petition_full_dark_arrow{
+.reps_inner_petition_full_dark_arrow{
     width:9.74px;
     margin-left: 8px;
     height:17.67px;
 }
-.full_response_link{
+.reps_inner_full_response_link{
     font-family: 'Fira Sans', sans-serif;
     font-size: 10px;
     font-weight:300;
     margin-top: 20px;
     color: #426ED9;
 }
-.response_border_bottom{
+.reps_inner_response_border_bottom{
     margin-top: 13px;
     border-bottom: 1px solid #29334040;
 }
-.view_all_responses_holder{
+.reps_inner_view_all_responses_holder{
     display:flex;
     margin-top: 20px;
 }
-.view_all_responses{
+.reps_inner_view_all_responses{
     color:#00973F;
     font-family: 'Fira Sans', sans-serif;
     font-size:14px;
@@ -206,13 +204,13 @@ header{
     width: 283px;
     margin-left: 11px;
 }
-.peoples_review_holder{
+.reps_inner_peoples_review_holder{
     margin-top: 34px;
     padding-left: 29px;
     width:375px;
     height:592px;
 }
-.peoples_review_header{
+.reps_inner_peoples_review_header{
     font-family: 'Fira Sans', sans-serif;
     font-size:13px;
     letter-spacing: 0.7px;
