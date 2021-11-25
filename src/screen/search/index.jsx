@@ -1,16 +1,16 @@
 import "./style.css";
-import clip_path2 from "../assets/icons/clip_path2.svg"; 
-import arrow_down from "../assets/icons/arrow_down.svg";
-import gps from "../assets/icons/gps.svg";
-import senator_dark from "../assets/icons/senator_dark.svg";
-import Group_dark from "../assets/icons/Group_dark.svg";
-import statistics_dark from "../assets/icons/statistics_dark.svg";
-import Feedbacks_dark from "../assets/icons/Feedbacks_dark.svg";
+import clip_path2 from "../../assets/icons/clip_path2.svg"; 
+import arrow_down from "../../assets/icons/arrow_down.svg";
+import gps from "../../assets/icons/gps.svg";
+import senator_dark from "../../assets/icons/senator_dark.svg";
+import Group_dark from "../../assets/icons/Group_dark.svg";
+import statistics_dark from "../../assets/icons/statistics_dark.svg";
+import Feedbacks_dark from "../../assets/icons/Feedbacks_dark.svg";
 
 
 function Search(){
     return(
-        <div className="search">
+        <div className="search_">
             <div className="clip_path2">
             <img src={clip_path2} alt=""/>
             </div>
@@ -23,7 +23,7 @@ function Search(){
                 <div>
                     <form>
                         <input type="text" id="address" placeholder="Onike, Yaba, Lagos"/>
-                        <span>CHANGE</span>
+                        <span className="search_span">CHANGE</span>
                     </form>
                 </div>  
             </section>

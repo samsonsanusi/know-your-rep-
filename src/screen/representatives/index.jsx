@@ -1,41 +1,23 @@
 import "./style.css";
-import Logo_light from "../assets/icons/Logo_light.svg";
-import Hamburger from 'hamburger-react';
 import {useState} from "react";
-import Oval_colored from "../assets/icons/Oval_colored.svg";
-import filter_list from "../assets/icons/filter_list.svg";
-import Oval_rep from "../assets/icons/Oval_rep.svg";
-import Abdulai_img from "../assets/icons/Abdulai_img.png";
-import tosin_rep from "../assets/icons/tosin_rep.png";
-import joseph_rep from "../assets/icons/joseph_rep.png";
-import tinubu_rep from "../assets/icons/tinubu_rep.png";
-import dino_rep from "../assets/icons/dino_rep.png";
-import senator_dark from "../assets/icons/senator_dark.svg";
-import petition from "../assets/icons/petition.svg";
-import Feedbacks_dark from "../assets/icons/Feedbacks_dark.svg";
-import statistics_dark from "../assets/icons/statistics_dark.svg";
-
+import filter_list from "../../assets/icons/filter_list.svg";
+import Oval_rep from "../../assets/icons/Oval_rep.svg";
+import Abdulai_img from "../../assets/icons/Abdulai_img.png";
+import tosin_rep from "../../assets/icons/tosin_rep.png";
+import joseph_rep from "../../assets/icons/joseph_rep.png";
+import tinubu_rep from "../../assets/icons/tinubu_rep.png";
+import dino_rep from "../../assets/icons/dino_rep.png";
+import senator_dark from "../../assets/icons/senator_dark.svg";
+import petition from "../../assets/icons/petition.svg";
+import Feedbacks_dark from "../../assets/icons/Feedbacks_dark.svg";
+import statistics_dark from "../../assets/icons/statistics_dark.svg";
+import HeaderOne from "../../components/headers/headerOne.js";
 
 function Representatives(){
-    const [isOpen, setOpen] = useState(false)
+
     return(
         <div className="representatives">
-            <header>
-                <div className="header_dark" >
-                <div className="header_logo"><img className="logo_white" src={Logo_light} alt=""/></div>
-                <div className="hamburger_light">
-                <Hamburger toggled={isOpen} toggle={setOpen} />
-                </div>
-                </div>
-                <div className="search_representative">
-                    <form className="representative_form">
-                    <input type="text" className="representative_area_search" placeholder="Anthony Ajayi, Onike, Yaba, Lagos" />
-                    </form>
-                    <div className="searchBtn_representative">
-                    <img src={Oval_colored} alt=""/>
-                    </div>
-                </div>
-            </header>
+            <HeaderOne />
             <section className="filter_name_section">
                 <div className="filter_section">
                 <h3 className="filter_header">REPRESENTATIVES</h3>
