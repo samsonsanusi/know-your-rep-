@@ -1,12 +1,19 @@
-header{
+.representative_details{
+    padding-bottom:40px;
+}
+.representative_details_header{
     width:375px;
     background: linear-gradient(317.15deg, #90DF6F 13.65%, #00973F 88.4%);
+    position:relative;
+    padding:15px 0px 5px 0px;
 }
 .arrow_icon{
     margin-left: 324px;
 }
-.arrow_icon_white{
-    margin-bottom: -46px;
+.reps_inner_arrow_icon{
+    position:absolute;
+    top:9%;
+    right:7%;
 }
 .reps_inner_rep_personal_page{
     width:327px;
@@ -14,7 +21,7 @@ header{
     background:white;
     box-shadow: 0px 6px 10px rgba(66, 110, 217, 0.1);
     border-radius: 12px;
-    margin: 60px auto;
+    margin: 51px auto 25px auto;
 }
 .reps_inner_image_circle{
     width:96px;
@@ -131,7 +138,7 @@ header{
 }
 .reps_inner_petitions_details_section{
     width: 375px;
-    height: 651px;
+    height: 602px;
     box-shadow: 0px 3px 6px rgba(71, 77, 96, 0.1);
 }
 .reps_inner_rep_petition_response{
@@ -216,4 +223,113 @@ header{
     letter-spacing: 0.7px;
     color:#293340;
     line-height:15.6px;
+    padding-bottom:11px;
+}
+.representative_real_rating{
+    display:flex;
+}
+.representative_group{
+    display: flex;
+    align-items: center;
+}
+.representative_rating{
+    font-family: 'Fira Sans', sans-serif;
+    font-size:39px;
+    color:#293340;
+    font-weight: 500;
+}
+.representative_icon{
+    padding-left:10px;
+    width: 105px;
+    height: 19px;
+}
+.representative_nav{
+    padding-left: 8px;
+}
+.representative_response{
+    padding-left: 17px;
+    font-size: 14px;
+    color:#293340;
+    font-weight:300;
+}
+.reps_details_button{
+    padding: 14px 10px 10px 10px;
+    text-align: center;
+    background: white;
+    border: 1px solid green;
+    width: 321px;
+    margin-top: 22px;
+    box-shadow: 0px 3px 6px rgba(71, 77, 96, 0.1);
+    color:#293340;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 16px;
+    margin-bottom: 24px;
+}
+.rep_details_reviews{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 12px;
+    padding-left: 66px;
+    font-style: italic;
+}
+.reps_details_bottom_header{
+    font-size:13px;
+    font-family: 'Fira Sans', sans-serif;
+    color: #293340;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+.rep_details_people_image{
+    margin-top: 28px;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 26px;
+}
+.people_image{
+    width:40px;
+}
+.test{
+    display:flex;
+    flex-direction: column;
+    padding-left: 26px;
+}
+ .people_petitions{
+    font-size: 15px;
+    line-height: 22px;
+    font-weight: 200;
+    width: 266px;
+    font-family: 'Fira Sans', sans-serif;
+    color:#293340;
+} 
+.people_petition_rating{
+    display: flex;
+    margin-top: 5px;
+}
+.people_rating_button{
+    width:14px;
+    height:14px;
+    border: 0.8px solid #00973F;
+    border-radius: 50%;
+    padding:2px;
+}
+.people_rating_section{
+    padding:0px 8px 0px 8px;
+}
+.rating_date{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    font-style: italic;
+}
+.view_review_link{
+    display: flex;
+    align-items: center;
+    margin-top: 29px;
+}
+.rep_header_reviews{
+    font-size: 14px;
+    padding-left: 10px;
+    font-family: 'Fira Sans', sans-serif;
+    color:#00973F;
 }

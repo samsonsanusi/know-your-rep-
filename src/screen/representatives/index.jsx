@@ -7,10 +7,6 @@ import tosin_rep from "../../assets/icons/tosin_rep.png";
 import joseph_rep from "../../assets/icons/joseph_rep.png";
 import tinubu_rep from "../../assets/icons/tinubu_rep.png";
 import dino_rep from "../../assets/icons/dino_rep.png";
-import senator_dark from "../../assets/icons/senator_dark.svg";
-import petition from "../../assets/icons/petition.svg";
-import Feedbacks_dark from "../../assets/icons/Feedbacks_dark.svg";
-import statistics_dark from "../../assets/icons/statistics_dark.svg";
 import HeaderOne from "../../components/headers/headerOne.js";
 
 function Representatives(){
@@ -27,7 +23,7 @@ function Representatives(){
                 </div>
                 </div>
             </section>
-            <section className="representative_details">
+            <section className="representative_main">
                 <div className="representative_inner_details">
                     <div>
                     <h6 className="representative_position">COUNCILLOR</h6>
@@ -107,27 +103,7 @@ function Representatives(){
                     <div className="representative_image"><img src={joseph_rep} alt=""/></div>
                 </div>
             </section>
-            <footer>
-                    <div className="footer_content">
-                        <div><img src={senator_dark} alt=""/></div>
-                        <h5 className="rep_footer_header">Reps</h5>
-                    </div> 
-
-                    <div className="footer_content">
-                        <div><img src={petition} alt=""/></div>
-                        <h5 className="rep_footer_header">Petitions</h5>
-                    </div>
-
-                    <div className="footer_content">
-                        <div><img src={Feedbacks_dark} alt=""/></div>
-                        <h5 className="rep_footer_header">Feedbacks</h5>
-                    </div>
-
-                    <div className="footer_content">
-                        <div><img src={statistics_dark} alt=""/></div>
-                        <h5 className="rep_footer_header">Reps</h5>
-                    </div>
-                </footer>
+            
         </div>
     )
 }
