@@ -26,7 +26,7 @@ const HeaderTwo = () =>{
                 </svg>
             </div>  
             <div className="header">
-                <div className="logo"><img src={Logo}/></div>
+                <div className="logo"><img src={Logo} alt=""/></div>
                 <div className="hamburger">
                 <Hamburger toggled={isOpen} toggle={setOpen} />
                 </div>

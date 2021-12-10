@@ -8,23 +8,23 @@ const Navbar = () => {
     return(
         <div className="icons_link">
                     <div className="icon_group">
-                    <div><img src={senator_dark}/></div>
+                    <div><img src={senator_dark} alt=""/></div>
                     <Link className="icon_text" to="/reps">Reps</Link>
               
                     </div>
 
                     <div className="icon_group">
-                    <div><img src={Group_dark}/></div>
+                    <div><img src={Group_dark} alt=""/></div>
                     <h5 className="icon_text">Petitions</h5>
                     </div>
 
                     <div className="icon_group">
-                    <div><img src={Feedbacks_dark}/></div>
+                    <div><img src={Feedbacks_dark} alt=""/></div>
                     <h5 className="icon_text">Feedbacks</h5>
                     </div>
 
                     <div className="icon_group">
-                    <div><img src={statistics_dark}/></div>
+                    <div><img src={statistics_dark} alt=""/></div>
                     <h5 className="icon_text">Statistics</h5>
                     </div>
                 </div>

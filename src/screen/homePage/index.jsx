@@ -31,7 +31,7 @@ function Homepage(){
                 <form>
                 <div className="home_form">
                 <input type="text" className="home_input_address" placeholder="Anthony Ajayi, Onike, Yaba, Lagos"></input>
-                <div><img className="home_search_icon" src={Oval}/></div>
+                <div><img className="home_search_icon" src={Oval} alt=""/></div>
                 </div>
                 </form>
                 </div>
@@ -115,7 +115,7 @@ function Homepage(){
                   </div>
                 </div>
                 <div className="card">
-                  <img className="senator_images" src={Rectangle_rep3}/> 
+                  <img className="senator_images" src={Rectangle_rep3} alt=""/> 
                   <div className="container">
                       <h6 className="reps_position">HOUSE OF REPRESENTATIVE </h6>
                       <h5 className="reps_name">Shina Peller</h5>
@@ -154,7 +154,7 @@ function Homepage(){
                   </div>
                 </div>
                 <div className="card">
-                  <img className="senator_images" src={Rectangle_rep1}/> 
+                  <img className="senator_images" src={Rectangle_rep1} alt=""/> 
                   <div className="container">
                       <h6 className="reps_position">STATE REPRESENTATIVE </h6>
                       <h5 className="reps_name">Abdulahi Abubakar</h5>
@@ -169,7 +169,7 @@ function Homepage(){
                   </div>
                 </div>
                 <div className="card">
-                  <img className="senator_images" src={Rectangle_Copy}/> 
+                  <img className="senator_images" src={Rectangle_Copy} alt=""/> 
                   <div className="container">
                       <h6 className="reps_position">HOUSE OF REPRESENTATIVE </h6>
                       <h5 className="reps_name">Shina Peller</h5>
@@ -249,7 +249,7 @@ function Homepage(){
                 </div>
             </div>
             <div className="reps view_all home_white">
-                <div className="colored_arrow"><img src={keyboard_backspace_white}/></div>
+                <div className="colored_arrow"><img src={keyboard_backspace_white} alt=""/></div>
                 <h3 className="colored_header footer_header">View All Representatives</h3>
             </div>
             </div>

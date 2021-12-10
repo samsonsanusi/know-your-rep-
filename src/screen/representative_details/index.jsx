@@ -47,7 +47,7 @@ function Representative_Details() {
                     </div>
                     <section>
                         <div className="reps_inner_call">
-                        <div className="reps_inner_call_rep"><img src={telephone}/></div>
+                        <div className="reps_inner_call_rep"><img src={telephone} alt=""/></div>
                         <h6 className="reps_inner_rep_number">0805-174-2253</h6>
                         </div>
                         <div className="reps_inner_rep_border_bottom"></div>
@@ -71,16 +71,16 @@ function Representative_Details() {
                 <p className="reps_inner_petition_date_details">The government responded on 10 December 2020</p>
                 <div className="reps_inner_petition_full_details_holder">
                 <p className="reps_inner_petition_full_details">Landlords can seek possession where tenants have 14 days rent arrears, given emergency legislation, landlords must give 6 months’ notice in such cases before starting formal possession proceedings.</p>
-                <div className="reps_inner_petition_full_dark_arrow"><img src={right_dark_arrow}/></div>
+                <div className="reps_inner_petition_full_dark_arrow"><img src={right_dark_arrow} alt=""/></div>
                 </div>
-                    <p className="reps_inner_full_response_link"><a href="">Read the response in full</a></p>
+                    <p className="reps_inner_full_response_link"><a href="#">Read the response in full</a></p>
                     <div className="reps_inner_response_border_bottom"></div>
                     <h5 className="reps_inner_petition_details_header">Increase uniform tax reliefs, especially for healthcare staff
                  </h5>
                 <p className="reps_inner_petition_date_details">The government responded on 10 December 2020</p>
                 <div className="reps_inner_petition_full_details_holder">
                 <p className="reps_inner_petition_full_details">Employees can claim tax relief on the actual costs incurred in cleaning their uniforms. They should not be incurring costs in cleaning or maintaining PPE as this is the responsibility of employers.</p>
-                <div className="reps_inner_petition_full_dark_arrow"><img src={right_dark_arrow}/></div>
+                <div className="reps_inner_petition_full_dark_arrow"><img src={right_dark_arrow} alt=""/></div>
                 </div>
                     <p className="reps_inner_full_response_link"><a href="">Read the response in full</a></p>
             
@@ -105,37 +105,37 @@ function Representative_Details() {
                     <h6 className="reps_inner_peoples_review_header">PEOPLE'S REVIEWS</h6>
                     <div className="representative_group">
                         <h3 className="representative_rating">4.1</h3>
-                        <div className="representative_icon"><img src={Group_rating}/></div>
+                        <div className="representative_icon"><img src={Group_rating} alt=""/></div>
                         <p className="representative_response">Very Good</p>
-                        <div className="representative_nav"><img src={arrow_down_colored}/></div>
+                        <div className="representative_nav"><img src={arrow_down_colored} alt=""/></div>
                     </div>
                     <p className="rep_details_reviews">1,796 reviews</p>
                     <button className="reps_details_button">Write a Feedback</button>
                     <h3 className="reps_details_bottom_header">WHAT PEOPLE ARE SAYING</h3>
                     <div className="rep_details_people_image">
-                       <div className="people_image"><img src={representative_image1}/></div>
+                       <div className="people_image"><img src={representative_image1} alt=""/></div>
                        <div className="test">
                        <p className="people_petitions">“We are asking that a Minister for Hospitality be created for the current, and successive governments.”</p>
                        <div className="people_petition_rating">
                        <h4>3.4</h4>
-                       <div className="people_rating_section"><img className="people_rating_button" src={green_filled}/></div>
+                       <div className="people_rating_section"><img className="people_rating_button" src={green_filled} alt=""/></div>
                        <p className="rating_date">20 Aug’ 2020</p>
                        </div>
                        </div>
                     </div>
                     <div className="rep_details_people_image">
-                       <div className="people_image"><img src={representative_image2}/></div>
+                       <div className="people_image"><img src={representative_image2} alt=""/></div>
                        <div className="test">
                        <p className="people_petitions">“The SDLT holiday was designed to be a temporary relief. ”</p>
                        <div className="people_petition_rating">
                        <h4>4.7</h4>
-                       <div className="people_rating_section"><img className="people_rating_button" src={green_filled}/></div>
+                       <div className="people_rating_section"><img className="people_rating_button" src={green_filled} alt=""/></div>
                        <p className="rating_date">12 Jul’ 2020</p>
                        </div>
                        </div>
                     </div>
                     <div className="rep_details_people_image">
-                       <div className="people_image"><img src={representative_image3}/></div>
+                       <div className="people_image"><img src={representative_image3} alt=""/></div>
                        <div className="test">
                        <p className="people_petitions">“Employees can claim tax relief on the actual costs incurred in cleaning their uniforms.”</p>
                        <div className="people_petition_rating">

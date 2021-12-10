@@ -152,18 +152,18 @@
     background:white;
     justify-content:space-around;
     width:375px;
-    padding-top:5px;
+    padding:8px 0px 0px 0px;
     box-shadow: 0px 0px 6px rgba(71, 77, 96, 0.2);
 }
 .footer_content{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 3px;
+    padding: 0px 0px 31px 0px;
 }
 .rep_footer_header{
     font-family: 'Fira Sans', sans-serif;
     font-size:12px;
-    margin-top:7px;
+    padding-top:0px;
     color:#293340;
 }
