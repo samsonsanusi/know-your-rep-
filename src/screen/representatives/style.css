@@ -50,10 +50,13 @@
     padding-top: 15px;
 }
 .filter_section{
+    background: #FFFFFF;
     display:flex;
     align-items:center;
     justify-content: space-between;
-    width:308px;
+    width:375px;
+    padding:10px 62px 10px 0px;
+    box-shadow: 0px 3px 6px rgba(71, 77, 96, 0.1);
 }
 .filter_header{
     font-family: 'Fira Sans', sans-serif;

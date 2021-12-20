@@ -8,6 +8,7 @@ import joseph_rep from "../../assets/icons/joseph_rep.png";
 import tinubu_rep from "../../assets/icons/tinubu_rep.png";
 import dino_rep from "../../assets/icons/dino_rep.png";
 import HeaderOne from "../../components/headers/headerOne.js";
+import RepsFooter from "../../components/headers/reps_footer_card";
 
 function Representatives(){
 
@@ -102,6 +103,7 @@ function Representatives(){
                     </div>
                     <div className="representative_image"><img src={joseph_rep} alt=""/></div>
                 </div>
+                <RepsFooter/>
             </section>
             
         </div>

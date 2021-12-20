@@ -1,0 +1,29 @@
+body{
+  font-family:"fira-sans",sans-serif;
+}
+.people_petition{
+    margin-left: 9px;
+    
+}
+.petition_number{
+    display:flex;
+    padding-top:20px;
+    justify-content: space-around;
+}
+.petition_header{
+    font-size:39px;
+    color:#000000;
+    font-style:normal;
+    line-height: 46.8px;
+}
+.petition_para{
+    font-size:13px;
+    width: 157px;
+    line-height: 16px;
+    font-family:"fira-sans",sans-serif;
+    font-style:normal;
+}
+.border{
+    border-bottom: 0.5px solid #00000026;
+    padding-bottom:12px;
+}
