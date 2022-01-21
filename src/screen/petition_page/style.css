@@ -1,29 +1,223 @@
-body{
-  font-family:"fira-sans",sans-serif;
+body {
+    font-family: "fira-sans", sans-serif;
 }
-.people_petition{
-    margin-left: 9px;
-    
+.people_petition {
+    margin-left: 23px;
 }
-.petition_number{
-    display:flex;
-    padding-top:20px;
-    justify-content: space-around;
+.main_main {
+    height: 407px;
 }
-.petition_header{
-    font-size:39px;
-    color:#000000;
-    font-style:normal;
+.petition_number {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 16px;
+}
+.petition_more {
+    display: flex;
+    align-items: center;
+    margin-top: 12px;
+}
+.add_petition_icon {
+    background: #d9a01b;
+    border-radius: 50%;
+    width: 14%;
+    padding: 18px;
+    position: absolute;
+    bottom: -10px;
+    right: 32px;
+}
+.petition_header {
+    font-size: 39px;
+    color: #000000;
+    font-style: normal;
     line-height: 46.8px;
+    font-family: "Fira Sans";
 }
-.petition_para{
-    font-size:13px;
+.petition_para {
+    font-size: 13px;
     width: 157px;
     line-height: 16px;
-    font-family:"fira-sans",sans-serif;
-    font-style:normal;
+    font-family: "Fira Sans";
+    font-style: normal;
+    font-weight: 300;
+    color: #000000a6;
 }
-.border{
+.inner_inner {
+    padding-left: 25px;
+}
+.main_body {
+    padding-top: 21px;
+}
+.border_bottom {
     border-bottom: 0.5px solid #00000026;
-    padding-bottom:12px;
+}
+.petition_signatures {
+    margin-top: 16px;
+    position: relative;
+}
+.petition_main_Header {
+    width: 331px;
+}
+.petition_main_Header {
+    color: #00973f;
+    line-height: 19.2px;
+    font-size: 16px;
+    font-family: "Fira Sans";
+}
+.petition_para_body {
+    font-family: "Fira Sans";
+    font-size: 19px;
+    font-weight: 300;
+    padding-top: 7px;
+}
+.petition_span_body {
+    font-size: 11px;
+    padding-left: 3px;
+}
+.petition_colored_footer {
+    display: flex;
+    margin-top: 18px;
+}
+.backspace_text {
+    padding-left: 7px;
+    font-size: 14px;
+    color: #00973f;
+    font-family: "Fira Sans";
+}
+.home_inner_footer_content {
+    display: flex;
+    margin-top: 14px;
+    align-items: center;
+}
+#petition_main {
+    background: linear-gradient(270deg, #90df6f 0%, #00bbca 100%);
+    width: 375px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-top: 29px;
+}
+.petition_footer_header {
+    font-size: 12px;
+    font-family: "Fira Sans", sans-serif;
+    color: #ffffff;
+    padding-top: 9px;
+    padding-left: 21px;
+}
+.petition_background {
+    margin: 0px auto;
+    display: block;
+    width: 335px;
+    background: white;
+    padding-top: 10px;
+    padding-bottom: 13px;
+    border-radius: 6px;
+    margin-top: 17px;
+}
+.petition_footer_h3 {
+    font-family: "Fira Sans", sans-serif;
+    font-size: 14px;
+}
+.petition_footer_h3 {
+    font-family: "Fira Sans", sans-serif;
+    font-size: 14px;
+    width: 257px;
+    line-height: 16.8px;
+}
+.petition_rating_footer {
+    display: flex;
+    padding-top: 17px;
+    align-items: baseline;
+}
+.petition_footer_number {
+    font-size: 20px;
+    font-family: "Fira Sans";
+    color: #00973f;
+    font-weight: 700;
+}
+.petition_footer_signature {
+    font-size: 11px;
+    font-weight: 200;
+    font-family: "Fira Sans";
+    color: #474d60;
+    padding-left: 2px;
+}
+.petition_footer_div {
+    padding-left: 80px;
+}
+.petition_target {
+    font-family: "Fira Sans";
+    font-size: 11px;
+    font-weight: 200;
+    color: #474d60;
+}
+.petition_target_number {
+    font-family: "Fira Sans";
+    font-size: 11px;
+    font-weight: 400;
+    color: #474d60;
+}
+.petition_text {
+    padding-left: 14px;
+}
+.box {
+    margin-top: 7px;
+}
+.petition_govt_response {
+    font-family: "Fira Sans";
+    font-size: 13px;
+    color: #293340;
+    margin-top: 12px;
+    margin-left: 5.2%;
+}
+.petition_white_footer {
+    margin-left: 20px;
+    display: block;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.petition_main_issue {
+    padding-top: 20px;
+    font-family: "Fira Sans";
+    font-size: 14px;
+    width: 312px;
+    color: #00973f;
+    padding-bottom: 9px;
+    line-height: 16.8px;
+    font-weight: 400;
+}
+.petition_date {
+    font-size: 10px;
+    font-family: "Fira Sans";
+    font-weight: 200;
+}
+.petition_more_details {
+    width: 312px;
+    font-family: "Fira Sans";
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 15.6px;
+    padding-top: 10px;
+    padding-bottom: 8px;
+}
+.OLA {
+    padding-bottom: 80px;
+}
+.petition_full_link {
+    font-family: "Fira Sans";
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 12px;
+    text-decoration: none;
+}
+.petition_group_holder {
+    border-bottom: 1.3px solid #00000038;
+    padding-bottom: 16px;
+}
+.petition_arrow {
+    display: flex;
+    align-items: baseline;
+}
+.petition_arrow_greater {
+    width: 9.74px;
+    height: 17.67px;
 }
