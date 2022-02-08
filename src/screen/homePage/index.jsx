@@ -407,6 +407,7 @@ function Homepage() {
                                     percent={40}
                                     size="small"
                                     status="active"
+                                    strokeColor=""
                                 />
                             </div>
                         </div>

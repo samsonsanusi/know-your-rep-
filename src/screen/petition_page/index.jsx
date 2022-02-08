@@ -150,6 +150,8 @@ function Petition_page() {
                                 percent={50}
                                 size="small"
                                 status="active"
+                                strokeColor="#D9A01B"
+                                showInfo={false}
                             />
                         </div>
                     </div>
@@ -179,6 +181,7 @@ function Petition_page() {
                                 percent={80}
                                 size="small"
                                 status="active"
+                                strokeColor="#D9A01B"
                             />
                         </div>
                     </div>
@@ -208,6 +211,7 @@ function Petition_page() {
                                 percent={50}
                                 size="small"
                                 status="active"
+                                strokeColor="#D9A01B"
                             />
                         </div>
                     </div>

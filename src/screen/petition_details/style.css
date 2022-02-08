@@ -1,0 +1,167 @@
+.petition-details-header {
+    background: linear-gradient(317.15deg, #90df6f 13.65%, #00973f 88.4%);
+    height: 18vh;
+}
+.petition__details__nav {
+    display: flex;
+    padding: 55px 24px;
+    justify-content: space-between;
+}
+.petition--details-section {
+    background: white;
+    box-shadow: 0px 3px 6px rgba(71, 77, 96, 0.1);
+    height: 104vh;
+}
+.petition__details__mainHeader {
+    font-weight: 500;
+    font-family: "fira sans", "sans-serif";
+    color: #00973f;
+}
+.petition--details-section {
+    margin-top: 24px;
+    padding: 2px 24px;
+}
+.petition__details__mainPara {
+    font-family: "Fira Sans", sans-serif;
+    font-size: 14px;
+    color: black;
+    font-weight: 300;
+    line-height: 16.8px;
+    margin-top: 15px;
+}
+.petition__details__mainPara2 {
+    font-family: "Fira Sans", sans-serif;
+    font-size: 14px;
+    color: black;
+    font-weight: 300;
+    line-height: 16.8px;
+    margin-top: 15px;
+}
+.petition--details--signPetition {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.petition__details__moreDetailsLink {
+    display: flex;
+    align-items: center;
+}
+.petition_details_rightColoredArrow {
+    width: 18.58px;
+    height: 9.01px;
+}
+.petition__details_leastHeader {
+    font-size: 12px;
+    padding-left: 7px;
+    font-family: "Fira Sans", sans-serif;
+    color: #00973f;
+}
+.petition__details__signPetitionBtn {
+    color: #ffffff;
+    border: none;
+    border-radius: 24px;
+    padding: 16px 20px;
+    font-size: 14px;
+    font-family: "Fira Sans";
+    font-weight: 700;
+    background: linear-gradient(135.51deg, #00973f 0.88%, #40d375 100%);
+    box-shadow: 0px 16px 20px rgba(0, 151, 63, 0.2);
+}
+.petition__details__rightWhiteArrow {
+    padding-left: 8px;
+}
+.petition__details__percentage {
+    padding-left: 47px;
+}
+.petition__details__coloredHeader {
+    font-family: "Fira Sans", sans-serif;
+    font-size: 13px;
+    color: #00973f;
+    padding-top: 35px;
+}
+.petition__details__responsePara {
+    font-size: 10px;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 300;
+    padding-top: 14px;
+}
+.petition__details__detailedPara {
+    color: #293340;
+    padding-top: 8px;
+    font-family: "Fira Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16.8px;
+}
+.petition__details__fullResponse {
+    font-size: 10px;
+    color: #426ed9;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 200;
+}
+.petition__details__paraSignature {
+    font-family: "Fira Sans", sans-serif;
+    color: #293340;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16.8px;
+    padding-top: 10px;
+}
+.petition__details__socials {
+    display: flex;
+    margin-top: 5px;
+}
+.petition__details__message {
+    background: #5468ff;
+    box-shadow: 0px 10px 26px rgba(33, 87, 152, 0.210637);
+    border-radius: 15px;
+    width: 48.95px;
+    margin-right: 5px;
+    padding: 14px 0 9px 13px;
+}
+.petition__details__email {
+    border-radius: 15px;
+    width: 48.95px;
+    padding: 14px 0 9px 13px;
+    background: #60d4aa;
+    margin-right: 5px;
+    box-shadow: 0px 10px 26px rgba(33, 87, 152, 0.210637);
+}
+.petition__details__facebook {
+    background: #4775cc;
+    width: 48.95px;
+    padding: 14px 0 9px 13px;
+    border-radius: 15px;
+    box-shadow: 0px 10px 26px rgba(33, 87, 152, 0.210637);
+    margin-right: 5px;
+}
+.facebook {
+    padding-left: 5px;
+}
+.petition__details__twitter {
+    background: #22b9fa;
+    width: 48.95px;
+    padding: 14px 0 9px 13px;
+    border-radius: 15px;
+    box-shadow: 0px 10px 26px rgba(33, 87, 152, 0.210637);
+}
+.petition--details--personalDetails {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 200;
+    font-size: 14px;
+    padding: 18px 0 4px 0;
+}
+.petition__details__footerHeader {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+.petition__details__dateCreated {
+    padding-bottom: 4px;
+}
+.petition__details__footerPara {
+    font-family: "Fira Sans";
+    font-size: 13px;
+    padding-top: 10px;
+}
