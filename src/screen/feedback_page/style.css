@@ -1,0 +1,70 @@
+.feedBack--body {
+    padding-top: 17px;
+}
+.feedBack__representative {
+    display: flex;
+    align-items: baseline;
+}
+.feedBack__card {
+    border-bottom: 1px solid #0000001f;
+    padding: 12px 24px;
+}
+.feedBack__to {
+    font-family: "fira sans", sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+}
+.feedBack__article {
+    padding-top: 7px;
+}
+.feedBack__repName {
+    color: #00973f;
+    font-family: "fira sans", sans-serif;
+    font-size: 13px;
+    padding-left: 3px;
+}
+.feedBack__rep_position {
+    font-size: 9px;
+    color: #d9a01b;
+    font-weight: 600;
+    padding-left: 8px;
+}
+.feedBack__content {
+    display: flex;
+}
+.feedBack__mainPara {
+    font-size: 15px;
+    font-family: "fira sans", sans-serif;
+    font-weight: 300;
+    line-height: 22px;
+}
+.feedBack__rating {
+    display: flex;
+    padding-top: 6px;
+}
+.feedBack__ratingBtn {
+    border: 1px solid #1ea896;
+    border-radius: 50%;
+    height: 14px;
+    width: 14px;
+    margin-left: 5px;
+}
+
+.feedBack__innerBtn {
+    margin-bottom: 3px;
+    margin-left: 2px;
+}
+.feedBack__ratingHeader {
+    font-family: "fira sans", sans-serif;
+    color: #293340;
+    font-size: 14px;
+    font-weight: 500;
+}
+.feedBack__repLocation {
+    font-family: "fira sans", sans-serif;
+    font-style: italic;
+    font-size: 12px;
+    color: #2933408f;
+    margin-left: 6px;
+    line-height: 14px;
+}

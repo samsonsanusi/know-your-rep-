@@ -5,6 +5,7 @@ import Representatives from "./screen/representatives";
 import { Route, Routes } from "react-router-dom";
 import Petition_page from "./screen/petition_page";
 import Petition_details from "./screen/petition_details";
+import Feedback_Page from "./screen/feedback_page";
 
 function App() {
     return (
@@ -15,6 +16,7 @@ function App() {
             <Route path="/reps_details" element={<Representative_details />} />
             <Route path="/petition_page" element={<Petition_page />} />
             <Route path="/petition_details" element={<Petition_details />} />
+            <Route path="/feedback_page" element={<Feedback_Page />} />
         </Routes>
     );
 }
