@@ -3,7 +3,7 @@ import HeaderOne from "../../components/headers/headerOne.js";
 import filter_list from "../../assets/icons/filter_list.svg";
 import Oval2 from "../../assets/icons/Oval2.png";
 import imgg from "../../assets/icons/imgg.png";
-function Feedback_Page() {
+function FeedbackPage() {
     return (
         <div className="feedback_page">
             <HeaderOne />
@@ -32,7 +32,11 @@ function Feedback_Page() {
                                 the leaders of tomorrow.”
                             </p>
                             <div className="feedBack__img">
-                                <img src={imgg} className="" />
+                                <img
+                                    src={imgg}
+                                    className="rep_image"
+                                    alt="repImage"
+                                />
                             </div>
                         </div>
                         <div className="feedBack__rating">
@@ -41,6 +45,7 @@ function Feedback_Page() {
                                 <img
                                     src={Oval2}
                                     className="feedBack__innerBtn"
+                                    alt="icon"
                                 />
                             </div>
                             <p className="feedBack__repLocation">
@@ -67,7 +72,11 @@ function Feedback_Page() {
                                 the leaders of tomorrow.”
                             </p>
                             <div className="feedBack__img">
-                                <img src={imgg} className="" />
+                                <img
+                                    src={imgg}
+                                    className="rep_image"
+                                    alt="repImage"
+                                />
                             </div>
                         </div>
                         <div className="feedBack__rating">
@@ -76,6 +85,7 @@ function Feedback_Page() {
                                 <img
                                     src={Oval2}
                                     className="feedBack__innerBtn"
+                                    alt="feedbackBtn"
                                 />
                             </div>
                             <p className="feedBack__repLocation">
@@ -100,7 +110,11 @@ function Feedback_Page() {
                                 the leaders of tomorrow.”
                             </p>
                             <div className="feedBack__img">
-                                <img src={imgg} className="" />
+                                <img
+                                    src={imgg}
+                                    className="rep_image"
+                                    alt="repImage"
+                                />
                             </div>
                         </div>
                         <div className="feedBack__rating">
@@ -109,6 +123,7 @@ function Feedback_Page() {
                                 <img
                                     src={Oval2}
                                     className="feedBack__innerBtn"
+                                    alt="icon"
                                 />
                             </div>
                             <p className="feedBack__repLocation">
@@ -136,7 +151,11 @@ function Feedback_Page() {
                                 the leaders of tomorrow.”
                             </p>
                             <div className="feedBack__img">
-                                <img src={imgg} className="" />
+                                <img
+                                    src={imgg}
+                                    className="rep_image"
+                                    alt="repImage"
+                                />
                             </div>
                         </div>
                         <div className="feedBack__rating">
@@ -145,6 +164,7 @@ function Feedback_Page() {
                                 <img
                                     src={Oval2}
                                     className="feedBack__innerBtn"
+                                    alt="icon"
                                 />
                             </div>
                             <p className="feedBack__repLocation">
@@ -172,7 +192,7 @@ function Feedback_Page() {
                                 the leaders of tomorrow.”
                             </p>
                             <div className="feedBack__img">
-                                <img src={imgg} className="" />
+                                <img src={imgg} alt="rep_image" />
                             </div>
                         </div>
                         <div className="feedBack__rating">
@@ -181,6 +201,7 @@ function Feedback_Page() {
                                 <img
                                     src={Oval2}
                                     className="feedBack__innerBtn"
+                                    alt="icon"
                                 />
                             </div>
                             <p className="feedBack__repLocation">
@@ -206,7 +227,7 @@ function Feedback_Page() {
                                 the leaders of tomorrow.”
                             </p>
                             <div className="feedBack__img">
-                                <img src={imgg} className="" />
+                                <img src={imgg} alt="rep_image" />
                             </div>
                         </div>
                         <div className="feedBack__rating">
@@ -215,6 +236,7 @@ function Feedback_Page() {
                                 <img
                                     src={Oval2}
                                     className="feedBack__innerBtn"
+                                    alt="icon"
                                 />
                             </div>
                             <p className="feedBack__repLocation">
@@ -227,4 +249,4 @@ function Feedback_Page() {
         </div>
     );
 }
-export default Feedback_Page;
+export default FeedbackPage;

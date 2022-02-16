@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import "./style.css";
 import HeaderOne from "../../components/headers/headerOne.js";
 import filter_list from "../../assets/icons/filter_list.svg";
@@ -7,7 +8,7 @@ import RepsFooter from "../../components/headers/reps_footer_card";
 import peti from "../../assets/icons/peti.svg";
 import { Progress } from "antd";
 
-function Petition_page() {
+function PetitionPage() {
     return (
         <div className="petition_page">
             <HeaderOne />
@@ -91,7 +92,6 @@ function Petition_page() {
                             <div className="plus">
                                 <img
                                     src={Shape}
-                                    className="real"
                                     alt=""
                                     className="add_petition_icon"
                                 />
@@ -310,4 +310,4 @@ function Petition_page() {
         </div>
     );
 }
-export default Petition_page;
+export default PetitionPage;

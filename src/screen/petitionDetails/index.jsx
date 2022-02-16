@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import "./style.css";
 import Logo_light from "../../assets/icons/Logo_light.svg";
 import back_arrow_light from "../../assets/icons/back_arrow_light.svg";
@@ -10,7 +11,7 @@ import mail_icon from "../../assets/icons/mail_icon.svg";
 import facebook from "../../assets/icons/facebook.svg";
 import twitter_icon from "../../assets/icons/twitter_icon.svg";
 import RepsFooter from "../../components/headers/reps_footer_card";
-function Petition_details() {
+function PetitionDetails() {
     return (
         <div className="petition_names">
             <header className="petition-details-header">
@@ -59,6 +60,7 @@ function Petition_details() {
                         <img
                             src={arrow_right_white}
                             className="petition__details__rightWhiteArrow"
+                            alt="rightArrowNavigation"
                         />
                     </button>
                 </div>
@@ -141,4 +143,4 @@ function Petition_details() {
         </div>
     );
 }
-export default Petition_details;
+export default PetitionDetails;

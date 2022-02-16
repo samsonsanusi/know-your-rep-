@@ -1,11 +1,11 @@
 import Search from "./screen/search";
 import Homepage from "./screen/homePage";
-import Representative_details from "./screen/representative_details";
+import RepresentativeDetails from "./screen/representativeDetails";
 import Representatives from "./screen/representatives";
 import { Route, Routes } from "react-router-dom";
-import Petition_page from "./screen/petition_page";
-import Petition_details from "./screen/petition_details";
-import Feedback_Page from "./screen/feedback_page";
+import PetitionPage from "./screen/petitionPage";
+import PetitionDetails from "./screen/petitionDetails";
+import FeedbackPage from "./screen/feedbackPage";
 
 function App() {
     return (
@@ -13,10 +13,10 @@ function App() {
             <Route path="/" element={<Homepage />} />
             <Route path="/search" element={<Search />} />
             <Route path="/reps" element={<Representatives />} />
-            <Route path="/reps_details" element={<Representative_details />} />
-            <Route path="/petition_page" element={<Petition_page />} />
-            <Route path="/petition_details" element={<Petition_details />} />
-            <Route path="/feedback_page" element={<Feedback_Page />} />
+            <Route path="/repsdetails" element={<RepresentativeDetails />} />
+            <Route path="/petition_page" element={<PetitionPage />} />
+            <Route path="/petition_details" element={<PetitionDetails />} />
+            <Route path="/feedback_page" element={<FeedbackPage />} />
         </Routes>
     );
 }
