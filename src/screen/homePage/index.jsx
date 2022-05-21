@@ -12,7 +12,6 @@ import Rectangle_rep2 from '../../assets/icons/Rectangle_rep2.png'
 import Rectangle_rep3 from '../../assets/icons/Rectangle_rep3.png'
 import keyboard_backspace from '../../assets/icons/keyboard_backspace.svg'
 import keyboard_backspace_white from '../../assets/icons/keyboard_backspace_white.svg'
-import Navbar from '../../components/navbar'
 import { Progress } from 'antd'
 import LogoClear from '../../assets/icons/LogoClear.svg'
 import { GiHamburgerMenu } from 'react-icons/gi'
@@ -76,7 +75,6 @@ function Homepage() {
           </div>
         </div>
       </header>
-
       <section className='heroSection mainContainer'>
         <h1 className='hero__header'>Know your local area representatives.</h1>
         <div className='hero__search'>
@@ -123,172 +121,167 @@ function Homepage() {
           </div>
         </div>
       </section>
-
-      <section className='reps mainContainer'>
-        <h3 className='reps_header'>POPULAR REPRESENTATIVES</h3>
+      <section className='popular__repSection mainContainer'>
+        <h3>POPULAR REPRESENTATIVES</h3>
         <div className='reps_section'>
-          <div className='card'>
+          <div className='olamide'>
             <img className='senator_images' src={Rectangle_Copy} alt='' />
             <div className='container'>
               <h6 className='reps_position'>HOUSE OF REPRESENTATIVE </h6>
               <h5 className='reps_name'>Shina Peller</h5>
               <p className='reps_constituency'>QUILOX, Lagos</p>
-              <div className='rating'>
-                <h4 className='rating_number'>4.5</h4>
+              <span className='rating'>
+                4.5
                 <div className='rating_button '>
                   <img className='filled_background' src={Oval2} alt='' />
                 </div>
-                <p className='reviews'>419 Reviews</p>
-              </div>
+                <span>419 Reviews</span>
+              </span>
             </div>
           </div>
-          <div className='card'>
+          <div className='olamide'>
             <img className='senator_images' src={Rectangle_rep1} alt='' />
             <div className='container'>
               <h6 className='reps_position'>STATE REPRESENTATIVE </h6>
               <h5 className='reps_name'>Abdulahi Abubakar</h5>
               <p className='reps_constituency'>Onike, Yaba, Lagos</p>
-              <div className='rating'>
-                <h4 className='rating_number'>3.4</h4>
+              <span className='rating'>
+                3.4
                 <div className='rating_button '>
                   <img className='filled_background' src={Oval2} alt='' />
                 </div>
-                <p className='reviews'>98 Reviews</p>
-              </div>
+                <span>98 Reviews</span>
+              </span>
             </div>
           </div>
-          <div className='card'>
+          <div className='olamide'>
             <img className='senator_images' src={Rectangle_rep2} alt='' />
             <div className='container'>
               <h6 className='reps_position'>SENATE PRESIDENT</h6>
               <h5 className='reps_name'>Mohammadu Malami</h5>
               <p className='reps_constituency'>Danfodio, Abuja</p>
-              <div className='rating'>
-                <h4 className='rating_number'>5.0</h4>
+              <span className='rating'>
+                5.0
                 <div className='rating_button '>
                   <img className='filled_background' src={Oval2} alt='' />
                 </div>
-                <p className='reviews'>319 Reviews</p>
-              </div>
+                <span className='reviews'>319 Reviews</span>
+              </span>
             </div>
           </div>
-          <div className='card'>
+          <div className='olamide'>
             <img className='senator_images' src={Rectangle_rep3} alt='' />
             <div className='container'>
               <h6 className='reps_position'>HOUSE OF REPRESENTATIVE </h6>
               <h5 className='reps_name'>Shina Peller</h5>
               <p className='reps_constituency'>QUILOX, Lagos</p>
-              <div className='rating'>
-                <h4 className='rating_number'>4.5</h4>
+              <span className='rating'>
+                4.5
                 <div className='rating_button '>
                   <img className='filled_background' src={Oval2} alt='' />
                 </div>
-                <p className='reviews'>419 Reviews</p>
-              </div>
+                <span className='reviews'>419 Reviews</span>
+              </span>
             </div>
           </div>
         </div>
       </section>
-      <section className='icon_section'>
-        <Navbar />
-      </section>
-      <section className=''>
-        <h3 className='reps_header'>TOP RATED REPRESENTATIVES</h3>
+      <section className='popular__repSection top__ratedRepresentative mainContainer'>
+        <h3>TOP RATED REPRESENTATIVES</h3>
         <div className='reps_section'>
-          <div className='card'>
+          <div className='olamide'>
             <img className='senator_images' src={Rectangle_rep2} alt='' />
             <div className='container'>
               <h6 className='reps_position'>SENATE PRESIDENT</h6>
               <h5 className='reps_name'>Mohammadu Malami</h5>
               <p className='reps_constituency'>Danfodio, Abuja</p>
-              <div className='rating'>
-                <h4 className='rating_number'>5.0</h4>
+              <span className='rating'>
+                5.0
                 <div className='rating_button '>
                   <img className='filled_background' src={Oval2} alt='' />
                 </div>
-                <p className='reviews'>319 Reviews</p>
-              </div>
+                <span className='reviews'>319 Reviews</span>
+              </span>
             </div>
           </div>
-          <div className='card'>
+          <div className='olamide'>
             <img className='senator_images' src={Rectangle_rep1} alt='' />
             <div className='container'>
               <h6 className='reps_position'>STATE REPRESENTATIVE </h6>
               <h5 className='reps_name'>Abdulahi Abubakar</h5>
               <p className='reps_constituency'>Onike, Yaba, Lagos</p>
-              <div className='rating'>
-                <h4 className='rating_number'>3.4</h4>
+              <span className='rating'>
+                3.4
                 <div className='rating_button '>
                   <img className='filled_background' src={Oval2} alt='' />
                 </div>
-                <p className='reviews'>98 Reviews</p>
-              </div>
+                <span className='reviews'>98 Reviews</span>
+              </span>
             </div>
           </div>
-          <div className='card'>
+          <div className='olamide'>
             <img className='senator_images' src={Rectangle_Copy} alt='' />
             <div className='container'>
               <h6 className='reps_position'>HOUSE OF REPRESENTATIVE </h6>
               <h5 className='reps_name'>Shina Peller</h5>
               <p className='reps_constituency'>QUILOX, Lagos</p>
-              <div className='rating'>
-                <h4 className='rating_number'>4.5</h4>
+              <span className='rating'>
+                4.5
                 <div className='rating_button '>
                   <img className='filled_background' src={Oval2} alt='' />
                 </div>
-                <p className='reviews'>419 Reviews</p>
-              </div>
+                <span className='reviews'>419 Reviews</span>
+              </span>
             </div>
           </div>
-          <div className='card'>
+          <div className='olamide'>
             <img className='senator_images' src={Rectangle_rep3} alt='' />
             <div className='container'>
               <h6 className='reps_position'>HOUSE OF REPRESENTATIVE </h6>
               <h5 className='reps_name'>Shina Peller</h5>
               <p className='reps_constituency'>QUILOX, Lagos</p>
-              <div className='rating'>
-                <h4 className='rating_number'>4.5</h4>
+              <span className='rating'>
+                4.5
                 <div className='rating_button '>
                   <img className='filled_background' src={Oval2} alt='' />
                 </div>
-                <p className='reviews'>419 Reviews</p>
-              </div>
+                <span className='reviews'>419 Reviews</span>
+              </span>
             </div>
           </div>
         </div>
-      </section>
-      <div className='reps view_all'>
-        <div className='colored_arrow'>
+        <span className='view_all'>
           <img src={keyboard_backspace} alt='' />
-        </div>
-        <h3 className='colored_header'>View All Representatives</h3>
-      </div>
-      <section className='home_footer_section'>
-        <div className='reps footer_footer'>
+          <h3 className='colored_header'>View All Representatives</h3>
+        </span>
+      </section>
+      <footer className='home_footer_section'>
+        <div className='footer_footer mainContainer'>
           <h3 className='reps_header footer'>PETITIONS AROUND YOU</h3>
           <div className='footer_white_bg'>
             <div className='home_footer_content'>
               <h3 className='footer_content_header'>
                 Create a Minister for Hospitality in the Nigerian Government
               </h3>
-              <div className='inner_footer_content'>
-                <h2 className='inner_footer_content_header'>75,746</h2>
-                <p className='inner_footer_content_para1'>signatures</p>
+              <span className='inner_footer_content'>
+                <span className='deen'>
+                  <h2 className='inner_footer_content_header'>75,746</h2>
+                  <p className='inner_footer_content_para1'>signatures</p>
+                </span>
                 <p className='inner_footer_content_para2'>
                   Target: <span className='home_footer_number'>100,000</span>
                 </p>
-              </div>
-              <div className='progress_bar' style={{ width: 300 }}>
+              </span>
+              <div className='progress_bar'>
                 <Progress
-                  percent={50}
+                  percent={80}
+                  showInfo={false}
                   size='small'
                   status='active'
                   strokeColor={{
                     '0%': '#D9A01B',
                     '100%': '#D9A01B',
-                    // eslint-disable-next-line react/jsx-no-duplicate-props
                   }}
-                  percent={80}
                 />
               </div>
             </div>
@@ -297,26 +290,28 @@ function Homepage() {
           <div className='footer_white_bg'>
             <div className='home_footer_content'>
               <h3 className='footer_content_header'>
-                Create a Minister for Hospitality in the Nigerian Government
+                End SARS, Stop Police Brutality and Reform The Nigerian Police
+                Force
               </h3>
               <div className='inner_footer_content'>
-                <h2 className='inner_footer_content_header'>75,746</h2>
-                <p className='inner_footer_content_para1'>signatures</p>
+                <span className='deen'>
+                  <h2 className='inner_footer_content_header'>75,746</h2>
+                  <p className='inner_footer_content_para1'>signatures</p>
+                </span>
                 <p className='inner_footer_content_para2'>
-                  Target: <span className='home_footer_number'>100,000</span>
+                  Target: <span className='home_footer_number'>50,000</span>
                 </p>
               </div>
-              <div className='progress_bar' style={{ width: 300 }}>
+              <div className='progress_bar'>
                 <Progress
-                  percent={80}
+                  percent={20}
+                  showInfo={false}
                   size='small'
                   status='active'
                   strokeColor={{
                     '0%': '#D9A01B',
                     '100%': '#D9A01B',
-                    // eslint-disable-next-line react/jsx-no-duplicate-props
                   }}
-                  percent={80}
                 />
               </div>
             </div>
@@ -325,26 +320,28 @@ function Homepage() {
           <div className='footer_white_bg'>
             <div className='home_footer_content'>
               <h3 className='footer_content_header'>
-                Create a Minister for Hospitality in the Nigerian Government
+                Prevent any restrictions on those who refuse a Covid-19
+                vaccination
               </h3>
-              <div className='home_inner_footer_content'>
-                <h2 className='inner_footer_content_header'>75,746</h2>
-                <p className='inner_footer_content_para1'>signatures</p>
+              <div className='inner_footer_content'>
+                <span className='deen'>
+                  <h2 className='inner_footer_content_header'>75,746</h2>
+                  <p className='inner_footer_content_para1'>signatures</p>
+                </span>
                 <p className='inner_footer_content_para2'>
-                  Target: <span className='home_footer_number'>100,000</span>
+                  Target: <span className='home_footer_number'>200,000</span>
                 </p>
               </div>
-              <div className='progress_bar' style={{ width: 300 }}>
+              <div className='progress_bar'>
                 <Progress
                   percent={40}
+                  showInfo={false}
                   size='small'
                   status='active'
                   strokeColor={{
                     '0%': '#D9A01B',
                     '100%': '#D9A01B',
-                    // eslint-disable-next-line react/jsx-no-duplicate-props
                   }}
-                  percent={40}
                 />
               </div>
             </div>
@@ -353,12 +350,10 @@ function Homepage() {
             <div className='colored_arrow'>
               <img src={keyboard_backspace_white} alt='' />
             </div>
-            <h3 className='colored_header footer_header'>
-              View All Representatives
-            </h3>
+            <h3 className='footer_header'>View All Representatives</h3>
           </div>
         </div>
-      </section>
+      </footer>
     </section>
   )
 }
