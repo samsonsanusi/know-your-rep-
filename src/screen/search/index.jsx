@@ -9,100 +9,100 @@ import Feedbacks_dark from '../../assets/icons/Feedbacks_dark.svg'
 
 function Search() {
   return (
-    <div className='search_'>
-      <div className='clip_path2'>
-        <img src={clip_path2} alt='' />
-      </div>
-      <div className='container_search'>
-        <div className='arrow_down'>
-          <img className='arrow_down_icon' src={arrow_down} alt='' />
+    <section>
+      <section className='mainContainer'>
+        <div className='clip_path2'>
+          <img src={clip_path2} alt='' />
+        </div>
+        <div className='location__dropdown--icon'>
+          <img src={arrow_down} alt='' />
         </div>
 
-        <section>
-          <div>
+        <section className='locationSection'>
+          <div className='form__wrapper'>
             <form>
               <input
-                class='loca'
+                class='locationSection__input'
                 type='text'
                 id='address'
                 placeholder='Onike, Yaba, Lagos'
               />
-              <span className='search_span'>CHANGE</span>
             </form>
+            <span className='location__change'>CHANGE</span>
           </div>
+          <div className='gps__wrapper'>
+            <div className='gps__icon--wrapper'>
+              <img src={gps} alt='' />
+            </div>
+            <h3 className='gps__text'>Use Current Location</h3>
+          </div>
+          <h3>POPULAR LOCATION NEAR YOU</h3>
         </section>
-
-        <div className='gps_section'>
-          <img className='gps_icon' src={gps} alt='' />
-          <h3 className='gps_text'>Use Current Location</h3>
-        </div>
-        <h3 className='location_main_header'>POPULAR LOCATION NEAR YOU</h3>
-
-        <div className='location_section'>
-          <div className='location_suggestion'>
-            <p className='location_search'>Somolu</p>
+        <div className='suggested__area--container'>
+          <div className='suggested__area--wrapper'>
+            <p>Somolu</p>
           </div>
-          <div className='location_suggestion'>
-            <p className='location_search'>Ikorodu West</p>
+          <div className='suggested__area--wrapper'>
+            <p>Ikorodu West</p>
           </div>
-          <div className='location_suggestion'>
-            <p className='location_search'>Ebute Meta</p>
+          <div className='suggested__area--wrapper'>
+            <p>Ebute Meta</p>
           </div>
-          <div className='location_suggestion'>
-            <p className='location_search'>Ajanaku Estate</p>
+          <div className='suggested__area--wrapper'>
+            <p>Ajanaku Estate</p>
           </div>
-          <div className='location_suggestion'>
-            <p className='location_search'>Tinubu Lake, Surulere</p>
+          <div className='suggested__area--wrapper'>
+            <p>Tinubu Lake, Surulere</p>
           </div>
-          <div className='location_suggestion'>
-            <p className='location_search'>Femikokusibe</p>
+          <div className='suggested__area--wrapper'>
+            <p>Femikokusibe</p>
           </div>
-          <div className='location_suggestion'>
-            <p className='location_search'>Lake Bariga Mulewu</p>
+          <div className='suggested__area--wrapper'>
+            <p>Lake Bariga Mulewu</p>
           </div>
-          <div className='location_suggestion'>
-            <p className='location_search'>Mushin Olosha</p>
+          <div className='suggested__area--wrapper'>
+            <p>Mushin Olosha</p>
           </div>
-          <div className='location_suggestion'>
-            <p className='location_search'>Clinic Road, Adekunle</p>
+          <div className='suggested__area--wrapper'>
+            <p>Clinic Road, Adekunle</p>
           </div>
-          <div className='location_suggestion'>
-            <p className='location_search'>Dadubule Street, Iwaya</p>
+          <div className='suggested__area--wrapper'>
+            <p>Dadubule Street, Iwaya</p>
           </div>
-          <div className='location_suggestion'>
-            <p className='location_search'>Adebanjo, Unilag Rd</p>
+          <div className='suggested__area--wrapper'>
+            <p>Adebanjo, Unilag Rd</p>
           </div>
         </div>
-      </div>
-      <section className='footer_icon_section'>
-        <div className='footer_icon'>
+      </section>
+      <section className='bottom__nav'>
+        <div className='bottom__nav--list'>
           <div className='footer_icon_group'>
-            <div>
+            <div className='bottom__nav--imageContainer'>
               <img src={senator_dark} alt='' />
             </div>
             <h5 className='footerHeader'>Reps</h5>
           </div>
           <div className='footer_icon_group'>
-            <div>
+            <div className='bottom__nav--imageContainer'>
               <img src={Group_dark} alt='' />
             </div>
             <h5 className='footerHeader'>Petitions</h5>
           </div>
           <div className='footer_icon_group'>
-            <div>
+            <div className='bottom__nav--imageContainer'>
               <img src={statistics_dark} alt='' />
             </div>
             <h5 className='footerHeader'>Feedbacks</h5>
           </div>
           <div className='footer_icon_group'>
-            <div>
+            <div className='bottom__nav--imageContainer'>
               <img src={Feedbacks_dark} alt='' />
             </div>
             <h5 className='footerHeader'>Reports</h5>
           </div>
         </div>
       </section>
-    </div>
+    </section>
   )
 }
 
