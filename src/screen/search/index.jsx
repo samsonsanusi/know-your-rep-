@@ -72,6 +72,21 @@ function Search() {
           <div className='suggested__area--wrapper'>
             <p>Adebanjo, Unilag Rd</p>
           </div>
+          <div className='suggested__area--wrapper'>
+            <p>Adebanjo, Unilag Rd</p>
+          </div>
+          <div className='suggested__area--wrapper'>
+            <p>Adebanjo, Unilag Rd</p>
+          </div>
+          <div className='suggested__area--wrapper'>
+            <p>Adebanjo, Unilag Rd</p>
+          </div>
+          <div className='suggested__area--wrapper'>
+            <p>Adebanjo, Unilag Rd</p>
+          </div>
+          <div className='suggested__area--wrapper'>
+            <p>Adebanjo, Unilag Rd</p>
+          </div>
         </div>
       </section>
       <section className='bottom__nav'>

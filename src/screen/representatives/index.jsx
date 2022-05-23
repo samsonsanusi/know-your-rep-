@@ -14,7 +14,7 @@ import HeaderOne from '../../components/headers/headerOne.js'
 
 function Representatives() {
   return (
-    <div className='representatives'>
+    <section>
       <HeaderOne />
       <section className='filter_name_section'>
         <div className='filter_section'>
@@ -170,7 +170,7 @@ function Representatives() {
           <h5 className='rep_footer_header'>Reps</h5>
         </div>
       </footer>
-    </div>
+    </section>
   )
 }
 export default Representatives
