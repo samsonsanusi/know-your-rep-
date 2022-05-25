@@ -16,6 +16,7 @@ import { Progress } from 'antd'
 import LogoClear from '../../assets/icons/LogoClear.svg'
 import { GiHamburgerMenu } from 'react-icons/gi'
 import { useState } from 'react'
+import FooterNav from '../../components/footerNav/index'
 
 function Homepage() {
   const [navOpen, setNavOpen] = useState(false)
@@ -351,6 +352,7 @@ function Homepage() {
             <h3 className='footer_header'>View All Representatives</h3>
           </div>
         </div>
+        <FooterNav />
       </footer>
     </section>
   )
