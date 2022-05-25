@@ -3,14 +3,6 @@
   justify-content: flex-end;
 }
 
-.location__dropdown--icon {
-  width: 1.5rem;
-}
-
-.location__dropdown--icon img {
-  width: 100%;
-}
-
 .locationSection {
   padding-top: 1.5rem;
 }
@@ -39,14 +31,6 @@
   align-items: center;
   padding-top: 1rem;
   padding-bottom: 1.5rem;
-}
-
-.gps__icon--wrapper {
-  width: 1.4rem;
-}
-
-.gps__wrapper .gps__icon--wrapper img {
-  width: 100%;
 }
 
 .gps__text {

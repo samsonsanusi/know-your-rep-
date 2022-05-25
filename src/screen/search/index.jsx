@@ -14,10 +14,7 @@ function Search() {
         <div className='clip_path2'>
           <img src={clip_path2} alt='' />
         </div>
-        <div className='location__dropdown--icon'>
-          <img src={arrow_down} alt='' />
-        </div>
-
+        <img src={arrow_down} alt='' />
         <section className='locationSection'>
           <div className='form__wrapper'>
             <form>
@@ -31,9 +28,7 @@ function Search() {
             <span className='location__change'>CHANGE</span>
           </div>
           <div className='gps__wrapper'>
-            <div className='gps__icon--wrapper'>
-              <img src={gps} alt='' />
-            </div>
+            <img src={gps} alt='' />
             <h3 className='gps__text'>Use Current Location</h3>
           </div>
           <h3>POPULAR LOCATION NEAR YOU</h3>
