@@ -6,11 +6,8 @@ import tosin_rep from '../../assets/icons/tosin_rep.png'
 import joseph_rep from '../../assets/icons/joseph_rep.png'
 import tinubu_rep from '../../assets/icons/tinubu_rep.png'
 import dino_rep from '../../assets/icons/dino_rep.png'
-import senator_dark from '../../assets/icons/senator_dark.svg'
-import petition from '../../assets/icons/petition.svg'
-import Feedbacks_dark from '../../assets/icons/Feedbacks_dark.svg'
-import statistics_dark from '../../assets/icons/statistics_dark.svg'
 import HeaderOne from '../../components/headers/coloredHeader/index'
+import FooterNav from '../../components/footerNav/index'
 
 function Representatives() {
   return (
@@ -27,148 +24,121 @@ function Representatives() {
       </section>
       <section className='representative_details '>
         <div className='representative_inner_details mainContainer'>
-          <h6 className='representative_position'>COUNCILLOR</h6>
-          <h5 className='representative_name'>Abdulahi Abubakar</h5>
-          <p className='representative_jurisdiction'>
-            Onike, Yaba, Lagos • 2.4 kms away
-          </p>
-          <div className='rating_group'>
-            <h4 className='rep_rating_colored'>3.8</h4>
-            <div className='rep_rating_button'>
-              <img className='inner_rep_button' src={Oval_rep} alt='' />
-            </div>
-            <p className='colored_rating_review'>982 Reviews</p>
+          <div>
+            <h6 className='representative_position'>COUNCILLOR</h6>
+            <h5 className='reps_name'>Abdulahi Abubakar</h5>
+            <p className='reps_constituency'>
+              Onike, Yaba, Lagos • 2.4 kms away
+            </p>
+            <span className='rating'>
+              3.8
+              <div className='rating_button'>
+                <img className='filled_background' src={Oval_rep} alt='' />
+              </div>
+              <span className='colored_rating_review'>982 Reviews</span>
+            </span>
           </div>
-
           <div className='representative_image'>
             <img src={Abdulai_img} alt='' />
           </div>
         </div>
-        <div className='representative_inner_details'>
+        <div className='representative_inner_details mainContainer'>
           <div>
             <h6 className='representative_position'>COUNCILLOR</h6>
-            <h5 className='representative_name'>Abdulahi Abubakar</h5>
-            <p className='representative_jurisdiction'>
+            <h5 className='reps_name'>Abdulahi Abubakar</h5>
+            <p className='reps_constituency'>
               Onike, Yaba, Lagos • 2.4 kms away
             </p>
-            <div className='rating_group'>
-              <h4 className='rep_rating_colored'>3.8</h4>
-              <div className='rep_rating_button'>
-                <img className='inner_rep_button' src={Oval_rep} alt='' />
+            <span className='rating'>
+              3.8
+              <div className='rating_button'>
+                <img className='filled_background' src={Oval_rep} alt='' />
               </div>
               <p className='colored_rating_review'>419 Reviews</p>
-            </div>
+            </span>
           </div>
           <div className='representative_image'>
             <img src={tosin_rep} alt='' />
           </div>
         </div>
-        <div className='representative_inner_details'>
+        <div className='representative_inner_details mainContainer'>
           <div>
             <h6 className='representative_position'>COUNCILLOR</h6>
-            <h5 className='representative_name'>Abdulahi Abubakar</h5>
-            <p className='representative_jurisdiction'>
+            <h5 className='reps_name'>Abdulahi Abubakar</h5>
+            <p className='reps_constituency'>
               Onike, Yaba, Lagos • 2.4 kms away
             </p>
-            <div className='rating_group'>
-              <h4 className='rep_rating_colored'>3.8</h4>
-              <div className='rep_rating_button'>
-                <img className='inner_rep_button' src={Oval_rep} alt='' />
+            <span className='rating'>
+              3.8
+              <div className='rating_button'>
+                <img className='filled_background' src={Oval_rep} alt='' />
               </div>
               <p className='colored_rating_review'>258 Reviews</p>
-            </div>
+            </span>
           </div>
           <div className='representative_image'>
             <img src={joseph_rep} alt='' />
           </div>
         </div>
-        <div className='representative_inner_details'>
+        <div className='representative_inner_details mainContainer'>
           <div>
             <h6 className='representative_position'>COUNCILLOR</h6>
-            <h5 className='representative_name'>Abdulahi Abubakar</h5>
-            <p className='representative_jurisdiction'>
+            <h5 className='reps_name'>Abdulahi Abubakar</h5>
+            <p className='reps_constituency'>
               Onike, Yaba, Lagos • 2.4 kms away
             </p>
-            <div className='rating_group'>
-              <h4 className='rep_rating_colored'>3.8</h4>
-              <div className='rep_rating_button'>
-                <img className='inner_rep_button' src={Oval_rep} alt='' />
+            <span className='rating'>
+              3.8
+              <div className='rating_button'>
+                <img className='filled_background' src={Oval_rep} alt='' />
               </div>
               <p className='colored_rating_review'>419 Reviews</p>
-            </div>
+            </span>
           </div>
           <div className='representative_image'>
             <img src={tinubu_rep} alt='' />
           </div>
         </div>
-        <div className='representative_inner_details'>
+        <div className='representative_inner_details mainContainer'>
           <div>
             <h6 className='representative_position'>COUNCILLOR</h6>
-            <h5 className='representative_name'>Abdulahi Abubakar</h5>
-            <p className='representative_jurisdiction'>
+            <h5 className='reps_name'>Abdulahi Abubakar</h5>
+            <p className='reps_constituency'>
               Onike, Yaba, Lagos • 2.4 kms away
             </p>
-            <div className='rating_group'>
-              <h4 className='rep_rating_colored'>3.8</h4>
-              <div className='rep_rating_button'>
-                <img className='inner_rep_button' src={Oval_rep} alt='' />
+            <span className='rating'>
+              3.8
+              <div className='rating_button'>
+                <img className='filled_background' src={Oval_rep} alt='' />
               </div>
               <p className='colored_rating_review'>982 Reviews</p>
-            </div>
+            </span>
           </div>
           <div className='representative_image'>
             <img src={dino_rep} alt='' />
           </div>
         </div>
-        <div className='representative_inner_details'>
+        <div className='representative_inner_details mainContainer'>
           <div>
             <h6 className='representative_position'>COUNCILLOR</h6>
-            <h5 className='representative_name'>Abdulahi Abubakar</h5>
-            <p className='representative_jurisdiction'>
+            <h5 className='reps_name'>Abdulahi Abubakar</h5>
+            <p className='reps_constituency'>
               Onike, Yaba, Lagos • 2.4 kms away
             </p>
-            <div className='rating_group'>
-              <h4 className='rep_rating_colored'>3.8</h4>
-              <div className='rep_rating_button'>
-                <img className='inner_rep_button' src={Oval_rep} alt='' />
+            <span className='rating'>
+              3.8
+              <div className='rating_button'>
+                <img className='filled_background' src={Oval_rep} alt='' />
               </div>
               <p className='colored_rating_review'>258 Reviews</p>
-            </div>
+            </span>
           </div>
           <div className='representative_image'>
             <img src={joseph_rep} alt='' />
           </div>
         </div>
       </section>
-      <footer className='change'>
-        <div className='footer_content'>
-          <div>
-            <img src={senator_dark} alt='' />
-          </div>
-          <h5 className='rep_footer_header'>Reps</h5>
-        </div>
-
-        <div className='footer_content'>
-          <div>
-            <img src={petition} alt='' />
-          </div>
-          <h5 className='rep_footer_header'>Petitions</h5>
-        </div>
-
-        <div className='footer_content'>
-          <div>
-            <img src={Feedbacks_dark} alt='' />
-          </div>
-          <h5 className='rep_footer_header'>Feedbacks</h5>
-        </div>
-
-        <div className='footer_content'>
-          <div>
-            <img src={statistics_dark} alt='' />
-          </div>
-          <h5 className='rep_footer_header'>Reps</h5>
-        </div>
-      </footer>
+      <FooterNav />
     </section>
   )
 }
