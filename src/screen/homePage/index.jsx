@@ -77,15 +77,15 @@ function Homepage() {
       </header>
       <section className='heroSection mainContainer'>
         <h1 className='hero__header'>Know your local area representatives.</h1>
-        <div className='hero__search'>
-          <form>
+        <form>
+          <div className='hero__search'>
             <input
               type='text'
               placeholder='Anthony Ajayi, Onike, Yaba, Lagos'
             />
-          </form>
-          <img src={Ovalsam} alt='' />
-        </div>
+            <img src={Ovalsam} alt='' />
+          </div>
+        </form>
 
         <div className='hero__features'>
           <div>
@@ -346,10 +346,8 @@ function Homepage() {
               </div>
             </div>
           </div>
-          <div className='reps view_all home_white'>
-            <div className='colored_arrow'>
-              <img src={keyboard_backspace_white} alt='' />
-            </div>
+          <div className='view_all'>
+            <img src={keyboard_backspace_white} alt='' />
             <h3 className='footer_header'>View All Representatives</h3>
           </div>
         </div>

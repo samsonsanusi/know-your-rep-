@@ -10,37 +10,36 @@ import senator_dark from '../../assets/icons/senator_dark.svg'
 import petition from '../../assets/icons/petition.svg'
 import Feedbacks_dark from '../../assets/icons/Feedbacks_dark.svg'
 import statistics_dark from '../../assets/icons/statistics_dark.svg'
-import HeaderOne from '../../components/headers/headerOne.js'
+import HeaderOne from '../../components/headers/coloredHeader/index'
 
 function Representatives() {
   return (
     <section>
       <HeaderOne />
-      <section className='filter_name_section'>
-        <div className='filter_section'>
-          <h3 className='filter_header'>REPRESENTATIVES</h3>
-          <div className='filter_icon'>
+      <section className='representative__filterContainer mainContainer'>
+        <div className='representative__filterWrapper'>
+          <h3>REPRESENTATIVES</h3>
+          <span className='filter_icon'>
             <img src={filter_list} alt='' />
-            <h6 className='filter_text'>Filters</h6>
-          </div>
+            <span className='filter_text'>Filters</span>
+          </span>
         </div>
       </section>
-      <section className='representative_details'>
-        <div className='representative_inner_details'>
-          <div>
-            <h6 className='representative_position'>COUNCILLOR</h6>
-            <h5 className='representative_name'>Abdulahi Abubakar</h5>
-            <p className='representative_jurisdiction'>
-              Onike, Yaba, Lagos • 2.4 kms away
-            </p>
-            <div className='rating_group'>
-              <h4 className='rep_rating_colored'>3.8</h4>
-              <div className='rep_rating_button'>
-                <img className='inner_rep_button' src={Oval_rep} alt='' />
-              </div>
-              <p className='colored_rating_review'>982 Reviews</p>
+      <section className='representative_details '>
+        <div className='representative_inner_details mainContainer'>
+          <h6 className='representative_position'>COUNCILLOR</h6>
+          <h5 className='representative_name'>Abdulahi Abubakar</h5>
+          <p className='representative_jurisdiction'>
+            Onike, Yaba, Lagos • 2.4 kms away
+          </p>
+          <div className='rating_group'>
+            <h4 className='rep_rating_colored'>3.8</h4>
+            <div className='rep_rating_button'>
+              <img className='inner_rep_button' src={Oval_rep} alt='' />
             </div>
+            <p className='colored_rating_review'>982 Reviews</p>
           </div>
+
           <div className='representative_image'>
             <img src={Abdulai_img} alt='' />
           </div>

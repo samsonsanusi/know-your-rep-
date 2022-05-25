@@ -1,7 +1,8 @@
-import Logo_light from '../../assets/icons/Logo_light.svg'
+import './style.css'
+import Logo_light from '../../../assets/icons/Logo_light.svg'
 import { useState } from 'react'
 import Hamburger from 'hamburger-react'
-import Oval_colored from '../../assets/icons/Oval_colored.svg'
+import Oval_colored from '../../../assets/icons/Oval_colored.svg'
 
 const HeaderOne = () => {
   const [isOpen, setOpen] = useState(false)
@@ -17,17 +18,15 @@ const HeaderOne = () => {
           </div>
         </div>
         <div className='locationContainer mainContainer'>
-          <div className='locationWrapper'>
-            <form>
+          <form>
+            <div className='hero__search'>
               <input
                 type='text'
                 placeholder='Anthony Ajayi, Onike, Yaba, Lagos'
               />
-            </form>
-          </div>
-          <div className='searchBtn_representative'>
-            <img src={Oval_colored} alt='' />
-          </div>
+              <img src={Oval_colored} alt='' />
+            </div>
+          </form>
         </div>
       </header>
     </section>
