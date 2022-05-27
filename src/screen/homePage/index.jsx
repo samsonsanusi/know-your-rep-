@@ -126,32 +126,17 @@ function Homepage() {
         <h3>POPULAR REPRESENTATIVES</h3>
         <div className='reps_section'>
           <div className='olamide'>
-            <img className='senator_images' src={Rectangle_Copy} alt='' />
+            <img className='senator_images' src={Rectangle_rep2} alt='' />
             <div className='container'>
-              <h6 className='reps_position'>HOUSE OF REPRESENTATIVE </h6>
-              <h5 className='reps_name'>Shina Peller</h5>
-              <p className='reps_constituency'>QUILOX, Lagos</p>
+              <h6 className='reps_position'>SENATE PRESIDENT</h6>
+              <h5 className='reps_name'>Mohammadu Malami</h5>
+              <p className='reps_constituency'>Danfodio, Abuja</p>
               <span className='rating'>
-                4.5
+                5.0
                 <div className='rating_button '>
-                  <img className='filled_background' src={Oval2} alt='' />
+                  <img src={Oval2} alt='' />
                 </div>
-                <span>419 Reviews</span>
-              </span>
-            </div>
-          </div>
-          <div className='olamide'>
-            <img className='senator_images' src={Rectangle_rep1} alt='' />
-            <div className='container'>
-              <h6 className='reps_position'>STATE REPRESENTATIVE </h6>
-              <h5 className='reps_name'>Abdulahi Abubakar</h5>
-              <p className='reps_constituency'>Onike, Yaba, Lagos</p>
-              <span className='rating'>
-                3.4
-                <div className='rating_button '>
-                  <img className='filled_background' src={Oval2} alt='' />
-                </div>
-                <span>98 Reviews</span>
+                <span className='reviews'>319 Reviews</span>
               </span>
             </div>
           </div>
@@ -164,7 +149,22 @@ function Homepage() {
               <span className='rating'>
                 5.0
                 <div className='rating_button '>
-                  <img className='filled_background' src={Oval2} alt='' />
+                  <img src={Oval2} alt='' />
+                </div>
+                <span className='reviews'>319 Reviews</span>
+              </span>
+            </div>
+          </div>
+          <div className='olamide'>
+            <img className='senator_images' src={Rectangle_rep2} alt='' />
+            <div className='container'>
+              <h6 className='reps_position'>SENATE PRESIDENT</h6>
+              <h5 className='reps_name'>Mohammadu Malami</h5>
+              <p className='reps_constituency'>Danfodio, Abuja</p>
+              <span className='rating'>
+                5.0
+                <div className='rating_button '>
+                  <img src={Oval2} alt='' />
                 </div>
                 <span className='reviews'>319 Reviews</span>
               </span>
@@ -179,7 +179,7 @@ function Homepage() {
               <span className='rating'>
                 4.5
                 <div className='rating_button '>
-                  <img className='filled_background' src={Oval2} alt='' />
+                  <img src={Oval2} alt='' />
                 </div>
                 <span className='reviews'>419 Reviews</span>
               </span>
@@ -199,7 +199,7 @@ function Homepage() {
               <span className='rating'>
                 5.0
                 <div className='rating_button '>
-                  <img className='filled_background' src={Oval2} alt='' />
+                  <img src={Oval2} alt='' />
                 </div>
                 <span className='reviews'>319 Reviews</span>
               </span>
@@ -214,7 +214,7 @@ function Homepage() {
               <span className='rating'>
                 3.4
                 <div className='rating_button '>
-                  <img className='filled_background' src={Oval2} alt='' />
+                  <img src={Oval2} alt='' />
                 </div>
                 <span className='reviews'>98 Reviews</span>
               </span>
@@ -229,7 +229,7 @@ function Homepage() {
               <span className='rating'>
                 4.5
                 <div className='rating_button '>
-                  <img className='filled_background' src={Oval2} alt='' />
+                  <img src={Oval2} alt='' />
                 </div>
                 <span className='reviews'>419 Reviews</span>
               </span>
@@ -244,7 +244,7 @@ function Homepage() {
               <span className='rating'>
                 4.5
                 <div className='rating_button '>
-                  <img className='filled_background' src={Oval2} alt='' />
+                  <img src={Oval2} alt='' />
                 </div>
                 <span className='reviews'>419 Reviews</span>
               </span>

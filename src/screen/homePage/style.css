@@ -10,14 +10,14 @@
 
 .clipPath {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
 }
 
 .LogoNav {
   display: flex;
   margin-top: 0.5rem;
   justify-content: space-between;
-  align-items: end;
+  align-items: flex-end;
 }
 
 .mainContainer {
@@ -220,10 +220,6 @@
   margin-left: 0.3rem;
   margin-right: 0.3rem;
   justify-content: center;
-}
-
-.filled_background {
-  width: 0.4rem;
 }
 
 .top__ratedRepresentative {
