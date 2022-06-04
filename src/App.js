@@ -3,6 +3,8 @@ import Homepage from './screen/homePage'
 import RepresentativeDetails from './screen/representativedetails'
 import Representatives from './screen/representatives'
 import { Route, Routes } from 'react-router-dom'
+import Petitions from './screen/petitions'
+import PetitionDetails from './screen/petitiondetails'
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
         path='/representativedetails'
         element={<RepresentativeDetails />}
       />
+      <Route path='petitions' element={<Petitions />} />
+      <Route path='petitiondetails' element={<PetitionDetails />} />
     </Routes>
   )
 }

@@ -1,5 +1,4 @@
 import './style.css'
-import filter_list from '../../assets/icons/filter_list.svg'
 import Oval_rep from '../../assets/icons/Oval_rep.svg'
 import Abdulai_img from '../../assets/icons/Abdulai_img.png'
 import tosin_rep from '../../assets/icons/tosin_rep.png'
@@ -8,20 +7,13 @@ import tinubu_rep from '../../assets/icons/tinubu_rep.png'
 import dino_rep from '../../assets/icons/dino_rep.png'
 import HeaderOne from '../../components/headers/coloredHeader/index'
 import FooterNav from '../../components/footerNav/index'
+import Filter from '../../components/filter/index'
 
 function Representatives() {
   return (
     <section>
       <HeaderOne />
-      <section className='representative__filterContainer mainContainer'>
-        <div className='representative__filterWrapper'>
-          <h3>REPRESENTATIVES</h3>
-          <span className='filter_icon'>
-            <img src={filter_list} alt='' />
-            <span className='filter_text'>Filters</span>
-          </span>
-        </div>
-      </section>
+      <Filter />
       <section className='representative_details '>
         <div className='representative_inner_details mainContainer'>
           <div>

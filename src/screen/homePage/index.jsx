@@ -11,11 +11,11 @@ import Rectangle_rep1 from '../../assets/icons/Rectangle_rep1.png'
 import Rectangle_rep2 from '../../assets/icons/Rectangle_rep2.png'
 import Rectangle_rep3 from '../../assets/icons/Rectangle_rep3.png'
 import keyboard_backspace from '../../assets/icons/keyboard_backspace.svg'
-import keyboard_backspace_white from '../../assets/icons/keyboard_backspace_white.svg'
-import { Progress } from 'antd'
 import LogoClear from '../../assets/icons/LogoClear.svg'
 import { GiHamburgerMenu } from 'react-icons/gi'
+import ColoredFooter from '../../components/coloredFooter/index'
 import { useState } from 'react'
+import keyboard_backspace_white from '../../assets/icons/keyboard_backspace_white.svg'
 import FooterNav from '../../components/footerNav/index'
 
 function Homepage() {
@@ -257,103 +257,16 @@ function Homepage() {
         </span>
       </section>
       <footer className='home_footer_section'>
-        <div className='footer_footer mainContainer'>
-          <h3 className='reps_header footer'>PETITIONS AROUND YOU</h3>
-          <div className='footer_white_bg'>
-            <div className='home_footer_content'>
-              <h3 className='footer_content_header'>
-                Create a Minister for Hospitality in the Nigerian Government
-              </h3>
-              <span className='inner_footer_content'>
-                <span className='deen'>
-                  <h2 className='inner_footer_content_header'>75,746</h2>
-                  <p className='inner_footer_content_para1'>signatures</p>
-                </span>
-                <p className='inner_footer_content_para2'>
-                  Target: <span className='home_footer_number'>100,000</span>
-                </p>
-              </span>
-              <div className='progress_bar'>
-                <Progress
-                  percent={80}
-                  showInfo={false}
-                  size='small'
-                  status='active'
-                  strokeColor={{
-                    '0%': '#D9A01B',
-                    '100%': '#D9A01B',
-                  }}
-                />
-              </div>
-            </div>
-          </div>
-
-          <div className='footer_white_bg'>
-            <div className='home_footer_content'>
-              <h3 className='footer_content_header'>
-                End SARS, Stop Police Brutality and Reform The Nigerian Police
-                Force
-              </h3>
-              <div className='inner_footer_content'>
-                <span className='deen'>
-                  <h2 className='inner_footer_content_header'>75,746</h2>
-                  <p className='inner_footer_content_para1'>signatures</p>
-                </span>
-                <p className='inner_footer_content_para2'>
-                  Target: <span className='home_footer_number'>50,000</span>
-                </p>
-              </div>
-              <div className='progress_bar'>
-                <Progress
-                  percent={20}
-                  showInfo={false}
-                  size='small'
-                  status='active'
-                  strokeColor={{
-                    '0%': '#D9A01B',
-                    '100%': '#D9A01B',
-                  }}
-                />
-              </div>
-            </div>
-          </div>
-
-          <div className='footer_white_bg'>
-            <div className='home_footer_content'>
-              <h3 className='footer_content_header'>
-                Prevent any restrictions on those who refuse a Covid-19
-                vaccination
-              </h3>
-              <div className='inner_footer_content'>
-                <span className='deen'>
-                  <h2 className='inner_footer_content_header'>75,746</h2>
-                  <p className='inner_footer_content_para1'>signatures</p>
-                </span>
-                <p className='inner_footer_content_para2'>
-                  Target: <span className='home_footer_number'>200,000</span>
-                </p>
-              </div>
-              <div className='progress_bar'>
-                <Progress
-                  percent={40}
-                  showInfo={false}
-                  size='small'
-                  status='active'
-                  strokeColor={{
-                    '0%': '#D9A01B',
-                    '100%': '#D9A01B',
-                  }}
-                />
-              </div>
-            </div>
-          </div>
-          <div className='view_all'>
-            <img src={keyboard_backspace_white} alt='' />
-            <h3 className='footer_header'>View All Representatives</h3>
-          </div>
+        <h3 className='reps_header footer mainContainer'>
+          PETITIONS AROUND YOU
+        </h3>
+        <ColoredFooter />
+        <div className='view_all mainContainer'>
+          <img src={keyboard_backspace_white} alt='' />
+          <h3 className='footer_header'>View All Petitions Around You</h3>
         </div>
-        <FooterNav />
       </footer>
+      <FooterNav />
     </section>
   )
 }
