@@ -1,0 +1,164 @@
+.headerSmall {
+  height: 15vh;
+  width: 100%;
+  background: linear-gradient(317.15deg, #90df6f 13.65%, #00973f 88.4%);
+}
+
+.headerSmall__nav {
+  display: flex;
+  padding-top: 2.5rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.petition__moreDetails {
+  font-size: 0.9rem;
+  font-weight: 300;
+  padding-top: 0.5rem;
+  line-height: 1.1rem;
+  color: #000000;
+}
+
+.petitionDetails {
+  min-height: 141vh;
+}
+
+.petition__moreDetails--bottom {
+  padding-top: 1rem;
+  max-width: 88%;
+}
+
+.more__petition--details {
+  display: flex;
+  align-items: center;
+}
+
+.colored_header--small {
+  padding-left: 0.5rem;
+  color: #00973f;
+  font-size: 0.8rem;
+}
+
+.sign__petitionContainer {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  padding-top: 1rem;
+  padding-bottom: 0.8rem;
+}
+
+.sign__Petition--Btn {
+  height: 48px;
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 24px;
+  border: none;
+  width: 169px;
+  font-size: 0.9rem;
+  background: linear-gradient(135.51deg, #00973f 0.88%, #40d375 100%);
+  box-shadow: 0px 16px 20px rgb(0 151 63 / 20%);
+  border-radius: 24px;
+}
+
+.rep__responseTimeHeader {
+  color: #00973f;
+  padding-bottom: 1rem;
+  padding-top: 2rem;
+}
+
+.rep__responseTime {
+  font-size: 0.8rem;
+  font-weight: 300;
+  color: #474d60;
+}
+
+.rep__responseDetails {
+  font-size: 0.9rem;
+  font-weight: 300;
+  max-width: 100%;
+  line-height: 1.1rem;
+  padding-top: 0.6rem;
+  color: #293340;
+}
+
+.rep__responseMoreDetails {
+  font-size: 0.8rem;
+  font-weight: 200;
+  color: #426ed9;
+  padding-top: 0.7rem;
+}
+
+.socialMedia_wrapper {
+  display: flex;
+  padding-top: 1rem;
+}
+
+.contactMedium {
+  width: 49px;
+  height: 49px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  margin-right: 0.7rem;
+  justify-content: center;
+  border-radius: 15px;
+}
+
+.smsMedium {
+  background: #5468ff;
+  box-shadow: 0px 10px 26px rgba(33, 87, 152, 0.210637);
+}
+
+.mailMedium {
+  background: #60d4aa;
+  box-shadow: 0px 10px 26px rgba(33, 87, 152, 0.210637);
+}
+
+.facebookMedium {
+  background: #4775cc;
+  box-shadow: 0px 10px 26px rgba(33, 87, 152, 0.210637);
+}
+
+.twitterMedium {
+  background: #22b9fa;
+  box-shadow: 0px 10px 26px rgba(33, 87, 152, 0.210637);
+}
+
+.petitionCreator__Container {
+  padding-top: 1.5rem;
+}
+
+.petitionCreator {
+  font-size: 0.9rem;
+  font-weight: 300;
+  color: #000000;
+  padding-bottom: 0.1rem;
+}
+
+.petitionCreator__name {
+  font-size: 1rem;
+  color: #000000;
+  padding-bottom: 1rem;
+}
+
+.petitionDeadline {
+  font-size: 0.9rem;
+  font-weight: 300;
+  color: #000000;
+  padding-bottom: 0.1rem;
+}
+
+.petitionDeadline__date {
+  font-size: 1rem;
+  color: #000000;
+  padding-bottom: 1rem;
+}
+
+.petitionDeadline {
+  font-size: 0.9rem;
+  font-weight: 300;
+  color: #000000;
+  padding-bottom: 0.1rem;
+}
