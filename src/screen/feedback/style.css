@@ -1,0 +1,83 @@
+.repDetailsWrapper {
+  display: flex;
+  color: #24272c;
+  align-items: baseline;
+  font-size: 1rem;
+  font-weight: 300;
+  padding-top: 0.6rem;
+  padding-bottom: 0.4rem;
+}
+
+.repPersonalDetails__section {
+  min-height: 120vh;
+}
+
+.repDetails__name {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #00973f;
+  padding-left: 0.3rem;
+  padding-right: 0.4rem;
+}
+
+.repDetails__position {
+  color: #d9a01b;
+  font-size: 0.6rem;
+  font-weight: 500;
+}
+
+.repsContainer {
+  border-bottom: 1px solid #2933402b;
+  margin-top: 0.6rem;
+  background: #ffffff;
+  box-shadow: 0px 3px 6px rgb(71 77 96 / 10%);
+}
+
+.repDetails__feedback {
+  max-width: 91%;
+  font-weight: 300;
+  font-size: 0.9rem;
+  line-height: 1.4rem;
+}
+
+.repDetails__ratingContainer {
+  display: flex;
+  align-items: center;
+  padding-top: 0.6rem;
+}
+
+.repDetails__ratingContainer h3 {
+  color: #293340;
+  font-size: 1rem;
+  padding-right: 0.4rem;
+}
+
+.rating__cta {
+  border: 1px solid #40d375;
+  border-radius: 50%;
+  width: 0.9rem;
+  height: 0.9rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.reps__Location {
+  font-size: 0.8rem;
+  font-weight: 300;
+  font-style: italic;
+  padding-left: 0.4rem;
+}
+
+.rep__image--container {
+  width: 7rem;
+}
+
+.rep__image--container img {
+  width: 100%;
+}
+
+.repDetailsContainer {
+  display: flex;
+  padding-bottom: 0.6rem;
+}
