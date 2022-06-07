@@ -1,0 +1,27 @@
+.representative__filterContainer {
+  width: 100%;
+  height: 7vh;
+  box-shadow: 0px 3px 6px rgba(71, 77, 96, 0.1);
+  padding-top: 1rem;
+}
+
+.representative__filterWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.representative__filterWrapper h3 {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 1rem;
+  color: #00973f;
+  font-weight: 700;
+}
+
+.filter_text {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #293340;
+  padding-left: 0.5rem;
+}
