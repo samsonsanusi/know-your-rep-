@@ -2,24 +2,6 @@
   background-color: greenyellow;
 }
 
-.HomePageHeader {
-  background: #fff;
-  height: 15vh;
-  width: 100%;
-}
-
-.clipPath {
-  display: flex;
-  justify-content: flex-end;
-}
-
-.LogoNav {
-  display: flex;
-  margin-top: 0.5rem;
-  justify-content: space-between;
-  align-items: flex-end;
-}
-
 .mainContainer {
   padding: 0 1rem;
 }

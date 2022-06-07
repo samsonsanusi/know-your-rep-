@@ -11,71 +11,15 @@ import Rectangle_rep1 from '../../assets/icons/Rectangle_rep1.png'
 import Rectangle_rep2 from '../../assets/icons/Rectangle_rep2.png'
 import Rectangle_rep3 from '../../assets/icons/Rectangle_rep3.png'
 import keyboard_backspace from '../../assets/icons/keyboard_backspace.svg'
-import LogoClear from '../../assets/icons/LogoClear.svg'
-import { GiHamburgerMenu } from 'react-icons/gi'
 import ColoredFooter from '../../components/coloredFooter/index'
-import { useState } from 'react'
 import keyboard_backspace_white from '../../assets/icons/keyboard_backspace_white.svg'
 import FooterNav from '../../components/footerNav/index'
+import WhiteHeader from '../../components/headers/whiteHeader/index'
 
-function Homepage() {
-  const [navOpen, setNavOpen] = useState(false)
-
-  const toggleNav = () => {
-    setNavOpen(!navOpen)
-  }
+const Homepage = () => {
   return (
     <section>
-      <header className='HomePageHeader'>
-        <div className='clipPath'>
-          <svg
-            width='135'
-            height='40'
-            viewBox='0 0 135 40'
-            fill='none'
-            xmlns='http://www.w3.org/2000/svg'
-          >
-            <circle
-              cx='70.5'
-              cy='-30.5'
-              r='45.5'
-              stroke='url(#paint0_linear_25:117)'
-              stroke-width='50'
-            />
-            <defs>
-              <linearGradient
-                id='paint0_linear_25:117'
-                x1='25'
-                y1='-76'
-                x2='25'
-                y2='15'
-                gradientUnits='userSpaceOnUse'
-              >
-                <stop offset='0.538462' stop-color='#90DF6F' />
-                <stop offset='1' stop-color='#00973F' />
-              </linearGradient>
-            </defs>
-          </svg>
-        </div>
-        <div className='LogoNav mainContainer'>
-          <img src={LogoClear} alt='' />
-
-          <nav className={navOpen ? 'Nav--items show' : 'Nav--items'}>
-            <ul className='nav-list'>
-              <li className='nav-listItems'>Home</li>
-              <li className='nav-listItems'>About</li>
-              <li className='nav-listItems'>Logout</li>
-              <li className='nav-listItems'>Places</li>
-              <li className='nav-listItems'>Contact</li>
-              <li className='nav-listItems'>Elections</li>
-              <li className='nav-listItems'>Sign in</li>
-            </ul>
-          </nav>
-          <div className='hamburger__Icon' onClick={toggleNav}>
-            <GiHamburgerMenu size={28} />
-          </div>
-        </div>
-      </header>
+      <WhiteHeader />
       <section className='heroSection mainContainer'>
         <h1 className='hero__header'>Know your local area representatives.</h1>
         <form>

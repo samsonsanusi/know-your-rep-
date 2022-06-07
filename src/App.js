@@ -6,6 +6,7 @@ import { Route, Routes } from 'react-router-dom'
 import Petitions from './screen/petitions'
 import PetitionDetails from './screen/petitiondetails'
 import Feedbacks from './screen/feedback'
+import Login from './screen/login'
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Route path='petitions' element={<Petitions />} />
       <Route path='petitiondetails' element={<PetitionDetails />} />
       <Route path='feedbacks' element={<Feedbacks />} />
+      <Route path='login' element={<Login />} />
     </Routes>
   )
 }

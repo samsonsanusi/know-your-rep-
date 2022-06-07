@@ -1,0 +1,41 @@
+.HomePageHeader {
+  background: #fff;
+  height: 15vh;
+  width: 100%;
+}
+
+.clipPath {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.LogoNav {
+  display: flex;
+  margin-top: 0.5rem;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.nav-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-listItems {
+  margin-bottom: 1rem;
+}
+
+.Nav--items {
+  position: absolute;
+  visibility: hidden;
+  background: green;
+  z-index: 0;
+}
+
+.Nav--items.show {
+  visibility: visible;
+}
+
+.switch {
+  background-color: greenyellow;
+}
