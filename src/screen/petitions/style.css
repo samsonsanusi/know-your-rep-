@@ -1,0 +1,74 @@
+.petitionContainer {
+  display: flex;
+  padding-top: 1rem;
+  border-bottom: 1px solid#0000003b;
+  padding-bottom: 1.1rem;
+  justify-content: space-between;
+}
+
+.petittion__Numberheader {
+  font-size: 2.7rem;
+}
+
+.morePetitions {
+  height: 97vh;
+}
+
+.petition__rsponsePara {
+  font-size: 0.8rem;
+  font-weight: 300;
+  max-width: 10rem;
+  padding-top: 0.5rem;
+}
+
+.petition__title {
+  font-size: 1rem;
+  color: green;
+  padding-top: 1rem;
+  line-height: 1.1rem;
+  padding-bottom: 0.6rem;
+}
+
+.petition__numbers {
+  font-size: 1.3rem;
+  font-weight: 300;
+}
+
+.petition__signature {
+  font-size: 0.9rem;
+  padding-left: 0.2rem;
+}
+
+.add__more--petitionContainer {
+  position: relative;
+}
+
+.add__more--petitionWrapper {
+  background: #d9a01b;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+
+.more__petition {
+  padding-top: 1rem;
+}
+
+.popularPetitionSection {
+  height: 70vh;
+  background: linear-gradient(270deg, #90df6f 0%, #00bbca 100%);
+}
+
+.governmentResponse {
+  color: #293340;
+}
+
+.Popular__petitionSection {
+  min-height: 119vh;
+}
