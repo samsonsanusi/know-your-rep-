@@ -7,6 +7,7 @@ import Petitions from './screen/petitions'
 import PetitionDetails from './screen/petitiondetails'
 import Feedbacks from './screen/feedback'
 import Login from './screen/login'
+import Register from './screen/register'
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <Route path='petitiondetails' element={<PetitionDetails />} />
       <Route path='feedbacks' element={<Feedbacks />} />
       <Route path='login' element={<Login />} />
+      <Route path='register' element={<Register />} />
     </Routes>
   )
 }
