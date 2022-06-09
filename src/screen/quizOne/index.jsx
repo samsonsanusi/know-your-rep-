@@ -20,23 +20,19 @@ const QuizOne = () => {
                 <span className='quiz-btn--number2'>One</span>
               </span>
             </button>
-
             <button className='quiz-btn'>
               <span className='quiz-btn--question'>
                 <span className='quiz-btn--number'>5</span>
                 <span className='quiz-btn--number2'>Five</span>
               </span>
             </button>
-          </div>
 
-          <div className='quizAnswerWrapper quizAnswerWrapperBottom'>
             <button className='quiz-btn'>
               <span className='quiz-btn--question'>
                 <span className='quiz-btn--number'>8</span>
                 <span className='quiz-btn--number2'>Eight</span>
               </span>
             </button>
-
             <button className='quiz-btn'>
               <span className='quiz-btn--question'>
                 <span className='quiz-btn--number'>2</span>

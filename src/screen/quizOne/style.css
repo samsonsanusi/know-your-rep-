@@ -8,12 +8,13 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding-top: 2rem;
+  padding-top: 1.5rem;
 }
 
 .quizAnswerWrapper {
   display: flex;
   padding-top: 2rem;
+  flex-wrap: wrap;
   justify-content: space-around;
 }
 
@@ -37,6 +38,7 @@
   width: 9.4rem;
   background: #fff;
   border: none;
+  margin-top: 0.7rem;
 }
 
 .quiz-btn:active {
@@ -59,10 +61,6 @@
 .quiz-btn--number2 {
   font-weight: 300;
   padding-top: 1.2rem;
-}
-
-.quizAnswerWrapperBottom {
-  padding-top: 0.6rem;
 }
 
 .quizAnswerContainer {
