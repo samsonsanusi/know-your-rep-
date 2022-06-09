@@ -1,0 +1,79 @@
+.Login {
+  height: 100vh;
+}
+
+.loginContainer {
+  padding-top: 2.5rem;
+}
+
+.loginGreeting {
+  max-width: 8rem;
+  padding-top: 1rem;
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: #293340;
+  line-height: 1.7rem;
+}
+
+.loginGreeting span {
+  font-weight: 400;
+}
+
+.formWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.formWrapper input {
+  border: none;
+  font-size: 1.2rem;
+  border-bottom: 1px solid#0000002b;
+  padding-bottom: 0.3rem;
+  outline: none;
+}
+
+.formWrapper input:focus {
+  border-bottom: 1px solid #00973f;
+}
+
+.formWrapper label {
+  font-size: 1rem;
+  padding-bottom: 1rem;
+  color: #0000008c;
+}
+
+.passwordWrapper {
+  padding-top: 2rem;
+}
+
+.forgotPassword {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 1rem;
+  padding-bottom: 3rem;
+  font-size: 0.8rem;
+  color: #0000008c;
+}
+
+.signIn-btn {
+  width: 100%;
+  height: 8vh;
+  background: #00973f;
+  box-shadow: 0px 5px 20px rgba(17, 32, 59, 0.163808);
+  border: none;
+  border-radius: 31px;
+  color: #ffffff;
+}
+
+.regAccount {
+  display: flex;
+  padding-top: 2rem;
+  justify-content: center;
+  font-size: 1.1rem;
+}
+
+.regAccount span {
+  color: #00973f;
+  padding-left: 0.3rem;
+}
