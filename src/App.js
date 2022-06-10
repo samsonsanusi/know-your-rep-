@@ -11,6 +11,7 @@ import Register from './screen/register'
 import CreatePetition from './screen/createPetition'
 import WriteFeedback from './screen/writeFeedback'
 import QuizOne from './screen/quizOne'
+import QuizTwo from './screen/quizTwo'
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
       <Route path='createPetition' element={<CreatePetition />} />
       <Route path='writeFeedback' element={<WriteFeedback />} />
       <Route path='quizOne' element={<QuizOne />} />
+      <Route path='quizTwo' element={<QuizTwo />} />
     </Routes>
   )
 }

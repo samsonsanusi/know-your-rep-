@@ -41,8 +41,8 @@
   margin-top: 0.7rem;
 }
 
-.quiz-btn:active {
-  border: 1px solid #00973f;
+.quiz-btn:hover {
+  border: 3px solid rgba(0, 151, 63, 0.303185);
   color: #00973f;
 }
 .quiz-btn--question {
