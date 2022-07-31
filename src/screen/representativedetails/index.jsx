@@ -11,6 +11,8 @@ import rating_background_half from '../../assets/icons/rating_background_half.sv
 import collapse_infoIcon_small from '../../assets/icons/collapse_infoIcon_small.svg'
 import user1 from '../../assets/icons/user1.png'
 import FooterNav from '../../components/footerNav'
+import { Link } from 'react-router-dom'
+
 const RepresentativeDetails = () => {
   return (
     <section>
@@ -141,7 +143,9 @@ const RepresentativeDetails = () => {
             <img src={collapse_infoIcon_small} alt='' />
           </div>
           <p className='peoples__reviewTotal'>1,796 reviews</p>
-          <button className='write__moreFeedback'>Write a Feedback</button>
+          <Link to='/writeFeedback'>
+            <button className='write__moreFeedback'>Write a Feedback</button>
+          </Link>
           <h3 className='peoples__currentReview--header'>
             WHAT PEOPLE ARE SAYING
           </h3>

@@ -1,6 +1,7 @@
 import './style.css'
 import WhiteHeader from '../../components/headers/whiteHeader/index'
 import FooterNav from '../../components/footerNav/index'
+import { Link } from 'react-router-dom'
 const Register = () => {
   return (
     <section>
@@ -27,7 +28,9 @@ const Register = () => {
             </form>
             <p className='forgotPassword'>Forgot password?</p>
           </div>
-          <button className='signIn-btn'>Sign in</button>
+          <Link to='/login'>
+            <button className='/'>Sign in</button>
+          </Link>
           <p className='regAccount'>
             Already have account? <span>Sign up</span>
           </p>

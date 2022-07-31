@@ -2,6 +2,7 @@ import './style.css'
 import LogoClear from '../../../assets/icons/LogoClear.svg'
 import OvalHome from '../../../assets/icons/OvalHome.svg'
 import { GiHamburgerMenu } from 'react-icons/gi'
+import { Link } from 'react-router-dom'
 import { useState } from 'react'
 
 const WhiteHeader = () => {
@@ -16,7 +17,9 @@ const WhiteHeader = () => {
           <img src={OvalHome} alt='' />
         </div>
         <div className='LogoNav mainContainer'>
-          <img src={LogoClear} alt='' />
+          <Link to='/homePage'>
+            <img src={LogoClear} alt='' />
+          </Link>
 
           <nav className={navOpen ? 'Nav--items show' : 'Nav--items'}>
             <ul className='nav-list'>

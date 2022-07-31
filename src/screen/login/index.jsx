@@ -1,6 +1,7 @@
 import './style.css'
 import WhiteHeader from '../../components/headers/whiteHeader/index'
 import FooterNav from '../../components/footerNav/index'
+import { Link } from 'react-router-dom'
 const Login = () => {
   return (
     <section>
@@ -25,7 +26,10 @@ const Login = () => {
           </div>
           <button className='signIn-btn'>Sign in</button>
           <p className='regAccount'>
-            Don’t have account? <span>Sign up</span>
+            Don’t have account?{' '}
+            <Link to='/register'>
+              <span>Sign up</span>
+            </Link>
           </p>
         </section>
       </main>

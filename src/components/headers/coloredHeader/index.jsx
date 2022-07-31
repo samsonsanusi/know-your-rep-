@@ -3,6 +3,7 @@ import Logo_light from '../../../assets/icons/Logo_light.svg'
 import { useState } from 'react'
 import Hamburger from 'hamburger-react'
 import Oval_colored from '../../../assets/icons/Oval_colored.svg'
+import { Link } from 'react-router-dom'
 
 const HeaderOne = () => {
   const [isOpen, setOpen] = useState(false)
@@ -10,9 +11,11 @@ const HeaderOne = () => {
     <section>
       <header className='main__header'>
         <div className='main__headerWrapper mainContainer'>
-          <div className='logo__wrapper'>
-            <img src={Logo_light} alt='' />
-          </div>
+          <Link to='/homePage'>
+            <div className='logo__wrapper'>
+              <img src={Logo_light} alt='' />
+            </div>
+          </Link>
           <div className='hamburger_light'>
             <Hamburger toggled={isOpen} toggle={setOpen} />
           </div>

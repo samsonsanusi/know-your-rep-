@@ -1,6 +1,7 @@
 import './style.css'
 import WhiteHeader from '../../components/headers/whiteHeader'
 import repQuiz from '../../assets/icons/repQuiz.png'
+import { Link } from 'react-router-dom'
 
 const QuizTwo = () => {
   return (
@@ -46,7 +47,9 @@ const QuizTwo = () => {
             </span>
           </button>
         </div>
-        <button className='signIn-btn quizTwo-btn'>Continue</button>
+        <Link to='/quizThree'>
+          <button className='signIn-btn quizTwo-btn'>Continue</button>
+        </Link>
       </section>
     </section>
   )

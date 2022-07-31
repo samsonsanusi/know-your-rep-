@@ -15,6 +15,7 @@ import ColoredFooter from '../../components/coloredFooter/index'
 import keyboard_backspace_white from '../../assets/icons/keyboard_backspace_white.svg'
 import FooterNav from '../../components/footerNav/index'
 import WhiteHeader from '../../components/headers/whiteHeader/index'
+import { Link } from 'react-router-dom'
 
 const Homepage = () => {
   return (
@@ -205,10 +206,12 @@ const Homepage = () => {
           PETITIONS AROUND YOU
         </h3>
         <ColoredFooter />
-        <div className='view_all mainContainer'>
-          <img src={keyboard_backspace_white} alt='' />
-          <h3 className='footer_header'>View All Petitions Around You</h3>
-        </div>
+        <Link to='/petitions'>
+          <div className='view_all mainContainer'>
+            <img src={keyboard_backspace_white} alt='' />
+            <h3 className='footer_header'>View All Petitions Around You</h3>
+          </div>
+        </Link>
       </footer>
       <FooterNav />
     </section>

@@ -1,5 +1,7 @@
 import './style.css'
 import WhiteHeader from '../../components/headers/whiteHeader/index'
+import { Link } from 'react-router-dom'
+
 const QuizOne = () => {
   return (
     <section>
@@ -41,7 +43,9 @@ const QuizOne = () => {
             </button>
           </div>
         </div>
-        <button className='signIn-btn'>Continue</button>
+        <Link to='/quizTwo'>
+          <button className='signIn-btn'>Continue</button>
+        </Link>
       </section>
     </section>
   )
